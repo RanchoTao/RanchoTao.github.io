@@ -9,7 +9,7 @@ I co-founded the Tsinghua Water Polo Club in my freshman year. We won 2nd place 
 
 ![National Collegiate Water Polo Championships 2021](../images/waterpolo.jpg)
 
-When visiting MIT in Spring 2023, I competed in the MIT Intramurals Water Polo League (IM League) --- our team won the first! After joining MIT as a PhD student, I'm also a member of the MIT Water Polo club.
+When visiting MIT in Spring 2023, I competed in the MIT Intramurals Water Polo League (IM League) -- our team won the first! After starting my PhD at MIT, I'm also currently a member of the MIT Water Polo club.
 
 ![MIT Intramurals Water Polo League, 2023](../images/MITwaterpolo.jpg)
 
@@ -17,4 +17,4 @@ As a key ingredient in water polo, I enjoy swimming as well. In Tsinghua Swimmin
 
 ![Swimming Competition of Tsinghua, 2022](../images/butterfly.jpg)
 
-Besides aquatics, I also recently developed interests in Figure Skating, Ice Hockey, Sailing, and Bouldering (a rapidly growing list!)
+Besides aquatics, I also developed interests in Figure Skating, Ice Hockey, Sailing, and Bouldering (a keep growing list!)

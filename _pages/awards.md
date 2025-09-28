@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 ## Research Awards
-* **Best Paper Award** at the Annual Conference of ACM SIG on Measurement and Evaluation (SIGMETRICS), 2025.
+* **Best Paper Award** of conference ACM SIGMETRICS, 2025.  
   *Paper title: Adversarial Network Optimization under Bandit Feedback: Maximizing Utility in Non-Stationary Multi-Hop Networks.*
 * **1st Place** in ACM Student Research Competition (SRC) held at SIGMETRICS, 2025.  
   *Paper title: Resource Allocation to Strategic Agents under Cost Constraints.*  
-  *Advancing to the ACM SRC Grand Finals in March 2026.*
+  *Advancing to the ACM SRC Grand Finals (to take place in March 2026).*
 
 ## Fellowship and Scholarship
 * **Outstanding Graduate** named by Beijing (*5%*), by Tsinghua (*2%*), and by Yao Class (*10%*), 2024.

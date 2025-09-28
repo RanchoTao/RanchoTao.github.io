@@ -11,7 +11,7 @@ Hi! I am a second-year PhD student at [Operations Research Center (ORC), MIT](ht
 
 Prior to MIT, I earned my Bachelor's degree from [Yao Class, Tsinghua](https://iiis.tsinghua.edu.cn/en/) in June 2024. I am extremely grateful to [**Prof. Longbo Huang**](https://people.iiis.tsinghua.edu.cn/~huang/), [**Prof. Haipeng Luo**](https://haipeng-luo.net/), [**Prof. Simon S. Du**](https://simonshaoleidu.com/), and [**Prof. Suvrit Sra**](https://optml.mit.edu/) who introduced me to the world of learning theory!
 
-My recent research focuses on resolving strategic behaviors in economic systems (EconCS) via online learning tools. I'm also broadly interested in learning theory topics, e.g., bandits, online learning, reinforcement learning theory, and deep learning theory -- check my [publications](publications) or [CV (PDF)](CV_Yan.pdf) for more information.
+My recent research focuses on the intersection of Economics and Computer Science (EconCS), specifically resolving strategic behaviors in economic systems via online learning tools. I'm also broadly interested in learning theory topics, e.g., bandits, online learning, reinforcement learning theory, and deep learning theory.
 
 ## Recent News
 * *Sep, 2025.* [Incentive-Aware Dynamic Resource Allocation under Constraints](https://arxiv.org/abs/2507.09473) accepted to **NeurIPS 2025**.
