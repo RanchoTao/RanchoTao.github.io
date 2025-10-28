@@ -5,7 +5,7 @@
 title: Rancho's Blog # the website title (if blank, full name will be used instead)
 first_name: Rancho
 middle_name: 
-last_name: Tao1
+last_name: Tao
 email: RanchoTao@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal page for Rancho Tao
