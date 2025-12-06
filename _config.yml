@@ -11,9 +11,9 @@ title                    : "Tao(陶）"
 title_separator          : "-"
 name                     : &name "Tao(陶）"
 description              : &description ""
-url                      : https://yandaichn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://RanchoTao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yandaichn/yandaichn.github.io"
+repository               : "RanchoTao/RanchoTao.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,16 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yan DAI (戴言)"
+  name             : "Shengye Tao (陶圣叶)"
   avatar           : "avatar5_2507.jpg"
-  bio              : "I am a 2nd-year PhD student @ ORC, MIT. Nice to meet you!"
+  bio              : "I am a 2nd-year student @ Math&AI BIMSA."
   location         : 
   employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=gkG4z3IAAAAJ"
-  email            : "yandai20@mit.edu"
+  googlescholar    : #https://scholar.google.com/citations?user=gkG4z3IAAAAJ
+  email            : "RanchoTao@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  dblp             : "https://dblp.org/pid/132/2047-2.html"
+  dblp             : #https://dblp.org/pid/132/2047-2.html
   uri              :
   bitbucket        :
   codepen          :
@@ -103,12 +103,12 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "yan-dai-751b581a9"
+  linkedin         : #yan-dai-751b581a9
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  openreview       : "https://openreview.net/profile?id=~Yan_Dai1"
+  openreview       : #https://openreview.net/profile?id=~Yan_Dai1
   steam            :
   tumblr           :
   twitter          :
