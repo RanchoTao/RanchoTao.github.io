@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a second-year student at [Beijing Institute of Mathematical Sciences and Applications (BIMSA), THU](https://www.bimsa.cn/zh-CN) where I am fortunate to be co-advised by [**Prof. Patrick Jaillet**](https://web.mit.edu/jaillet/www/) and [**Prof. Negin Golrezaei**](https://www.mit.edu/~golrezae/).
+Hi! I am a second-year student at [Beijing Institute of Mathematical Sciences and Applications (BIMSA)](https://www.bimsa.cn/zh-CN)
 
-Prior to MIT, I earned my Bachelor's degree from [Yao Class, Tsinghua](https://iiis.tsinghua.edu.cn/en/) in June 2024. I am extremely grateful to [**Prof. Longbo Huang**](https://people.iiis.tsinghua.edu.cn/~huang/), [**Prof. Haipeng Luo**](https://haipeng-luo.net/), [**Prof. Simon S. Du**](https://simonshaoleidu.com/), and [**Prof. Suvrit Sra**](https://optml.mit.edu/) who introduced me to the world of learning theory!
+I am currently pursuing a Bachelor of Science degree in Mathematics and Artificial Intelligence. I am extremely grateful to [**Prof. Rongling Wu**](https://www.bimsa.cn/zh-CN/detail/ronglingwu.html)，who introduced me to the world of learning theory!
 
-My recent research focuses on the intersection of Economics and Computer Science (EconCS), specifically resolving strategic behaviors in economic systems via online learning tools. I'm also broadly interested in learning theory topics, e.g., bandits, online learning, reinforcement learning theory, and deep learning theory.
+My recent research focuses on the intersection of Natural Language Processing and Quantitative Trading, Specifically, I focus on solving economic problems through natural language models and quantitative models. Concurrently, I maintain a broad interest in topics related to learning theory, such as the multi-armed bandit problem, online learning, reinforcement learning theory, and deep learning theory.
 
 ## Recent News
 * *Sep, 2025.* [Incentive-Aware Dynamic Resource Allocation under Constraints](https://arxiv.org/abs/2507.09473) accepted to **NeurIPS 2025**.
