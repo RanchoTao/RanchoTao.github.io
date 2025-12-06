@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a second-year PhD student at [Operations Research Center (ORC), MIT](https://orc.mit.edu/) where I am fortunate to be co-advised by [**Prof. Patrick Jaillet**](https://web.mit.edu/jaillet/www/) and [**Prof. Negin Golrezaei**](https://www.mit.edu/~golrezae/).
+Hi! I am a second-year student at [Beijing Institute of Mathematical Sciences and Applications (BIMSA), THU](https://www.bimsa.cn/zh-CN) where I am fortunate to be co-advised by [**Prof. Patrick Jaillet**](https://web.mit.edu/jaillet/www/) and [**Prof. Negin Golrezaei**](https://www.mit.edu/~golrezae/).
 
 Prior to MIT, I earned my Bachelor's degree from [Yao Class, Tsinghua](https://iiis.tsinghua.edu.cn/en/) in June 2024. I am extremely grateful to [**Prof. Longbo Huang**](https://people.iiis.tsinghua.edu.cn/~huang/), [**Prof. Haipeng Luo**](https://haipeng-luo.net/), [**Prof. Simon S. Du**](https://simonshaoleidu.com/), and [**Prof. Suvrit Sra**](https://optml.mit.edu/) who introduced me to the world of learning theory!
 
