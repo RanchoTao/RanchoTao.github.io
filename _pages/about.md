@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a second-year student at [Beijing Institute of Mathematical Sciences and Applications (BIMSA)](https://www.bimsa.cn/zh-CN)
+Hi! I am a second-year student at [Beijing Institute of Mathematical Sciences and Applications (BIMSA)](https://www.bimsa.cn/)
 
 I am currently pursuing a Bachelor of Science degree in Mathematics and Artificial Intelligence. I am extremely grateful to [**Prof. Rongling Wu**](https://www.bimsa.cn/zh-CN/detail/ronglingwu.html)，who introduced me to the world of learning theory!
 
