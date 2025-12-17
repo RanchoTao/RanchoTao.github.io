@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tao(陶)"
+title                    : "Li(李)"
 title_separator          : "-"
-name                     : &name "Tao(陶）"
+name                     : &name "Haiyi(海壹）"
 description              : &description ""
 url                      : https://RanchoTao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
