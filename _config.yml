@@ -11,9 +11,9 @@ title                    : "Li(李)"
 title_separator          : "-"
 name                     : &name "Haiyi(海壹）"
 description              : &description ""
-url                      : https://RanchoTao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://NeoLi06.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "RanchoTao/RanchoTao.github.io"
+repository               : "NeoLi06/NeoLi06.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shengye Tao (陶圣叶)"
-  avatar           : "avatar1_2512.jpg"
+  name             : "Haiyi Li (李海壹)"
+  avatar           : "avatar_2512.jpg"
   bio              : "I am a 2nd-year student @ Math&AI BIMSA."
   location         : 
   employer         : 
   pubmed           : 
   googlescholar    : #https://scholar.google.com/citations?user=gkG4z3IAAAAJ
-  email            : "RanchoTao@gmail.com"
+  email            : "NeoLi@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   dblp             : #https://dblp.org/pid/132/2047-2.html
   uri              :
