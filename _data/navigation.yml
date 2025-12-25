@@ -8,9 +8,9 @@ main:
     
   - title: "Misc"
     url: /misc/
-    
-  - title: "CV (PDF)"
-    url: /CV.pdf
-   
+
   - title: "Posts"
     url: /posts/
+
+  - title: "CV (PDF)"
+    url: /CV.pdf
