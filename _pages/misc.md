@@ -1,10 +1,14 @@
 ---
 layout: archive
-title: "Miscellaneous"
-permalink: /misc/
+title: "Life"
+permalink: /life/
 author_profile: true
+redirect_from:
+  - /misc/
 ---
 
-I am skiing and fitness enthusiast.
+Notes and fragments outside coursework and projects: skiing, fitness, guitar, travel, and ordinary life.
+
+I am a skiing and fitness enthusiast.
 
 ![My Skiing Photos](../images/skiing.jpg)
