@@ -9,7 +9,7 @@ redirect_from:
 
 <p class="home-kicker">Math & AI · Learning theory · Quant systems · Tools for thought</p>
 
-**BIMSA首届 Mathematics & Artificial Intelligence 本科生.**
+**The first cohort of BIMSA undergraduate students in Math & AI.**
 
 I am an undergraduate student in Mathematics and Artificial Intelligence at [BIMSA](https://www.bimsa.cn/).
 
