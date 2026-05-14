@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Shengye Tao (陶圣叶)"
   avatar           : "avatar1_2605.jpg"
-  bio              : "Undergraduate in Mathematics & AI at BIMSA; exploring learning theory, quantitative systems, and tools for thought."
-  location         : 
+  bio              : "Undergraduate in Math & AI at BIMSA; exploring learning theory, quant trading, and systems for thought."
+  location         : "Beijing"
   employer         : 
   pubmed           : 
   googlescholar    : #https://scholar.google.com/citations?user=gkG4z3IAAAAJ
@@ -97,7 +97,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "RanchoTao"
+  douyin           : "Douyin"
+  bilibili         : "Bilibili"
+  xiaohongshu      : "Xiaohongshu"
   google_plus      :
   keybase          :
   instagram        :

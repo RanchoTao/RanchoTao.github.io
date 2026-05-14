@@ -61,6 +61,15 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      {% if author.douyin %}
+        <li><i class="fas fa-fw fa-video" aria-hidden="true"></i> {{ author.douyin }}</li>
+      {% endif %}
+      {% if author.bilibili %}
+        <li><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i> {{ author.bilibili }}</li>
+      {% endif %}
+      {% if author.xiaohongshu %}
+        <li><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> {{ author.xiaohongshu }}</li>
+      {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
