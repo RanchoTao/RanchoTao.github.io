@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tao(陶)"
+title                    : "Shengye Tao"
 title_separator          : "-"
-name                     : &name "Tao(陶）"
-description              : &description ""
+name                     : &name "Shengye Tao / 陶圣叶"
+description              : &description "Personal homepage of Shengye Tao (RanchoTao), undergraduate in Mathematics & AI at BIMSA."
 url                      : https://RanchoTao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RanchoTao/RanchoTao.github.io"

@@ -20,9 +20,10 @@ Undergraduate, Mathematics & Artificial Intelligence
 
 - Learning theory
 - World models
-- Quantitative trading systems
-- AI-assisted workflows
-- Human decision-making and long-horizon learning
+- Quantitative systems and market structure
+- Human-computer workflows and tools for thought
+- Reinforcement learning and sequential decision-making
+- Digital life and minimal formal systems
 
 ## Selected Coursework / Notes
 
@@ -30,4 +31,4 @@ Coming soon.
 
 ## CV
 
-[Download CV (PDF)](/CV.pdf)
+[Download CV (PDF)]({{ '/CV.pdf' | relative_url }})
