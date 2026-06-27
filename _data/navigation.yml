@@ -14,3 +14,6 @@ main:
 
   - title: "Life"
     url: /life/
+
+  - title: "中文"
+    url: /zh/
