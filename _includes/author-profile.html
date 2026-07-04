@@ -31,45 +31,16 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% assign profile_lang = page.lang | default: 'en' %}
+      {% if page.url == '/zh/' %}
+        {% assign profile_lang = 'zh' %}
       {% endif %}
-      {% if author.keybase %}
-        <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
-      {% endif %}
-       {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
-      {% endif %}
-      {% if author.facebook %}
-        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-      {% endif %}
-      {% if author.google_plus %}
-        <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
-      {% endif %}
-      {% if author.xing %}
-        <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
-      {% endif %}
-      {% if author.instagram %}
-        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-      {% endif %}
-      {% if author.tumblr %}
-        <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
-      {% endif %}
-      {% if author.bitbucket %}
-        <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-      {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      {% endif %}
-      {% if author.douyin %}
-        <li><i class="fas fa-fw fa-video" aria-hidden="true"></i> {{ author.douyin }}</li>
-      {% endif %}
-      {% if author.bilibili %}
-        <li><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i> {{ author.bilibili }}</li>
-      {% endif %}
-      {% if author.xiaohongshu %}
-        <li><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> {{ author.xiaohongshu }}</li>
-      {% endif %}
+      {% assign social_links = site.data.socials[profile_lang] | default: site.data.socials.en %}
+      {% for social in social_links %}
+        {% if social.url and social.url != '' and social.url != '#' %}
+          <li><a href="{{ social.url }}"><i class="{{ social.icon | default: 'fas fa-fw fa-link' }}" aria-hidden="true"></i> {{ social.label }}</a></li>
+        {% endif %}
+      {% endfor %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}

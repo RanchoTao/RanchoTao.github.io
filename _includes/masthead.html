@@ -1,4 +1,15 @@
 {% include base_path %}
+{% assign current_lang = page.lang | default: 'en' %}
+{% if page.url == '/zh/' %}
+  {% assign current_lang = 'zh' %}
+{% endif %}
+{% if current_lang == 'zh' %}
+  {% assign language_label = 'English' %}
+  {% assign language_url = '/' %}
+{% else %}
+  {% assign language_label = '中文' %}
+  {% assign language_url = '/zh/' %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -17,6 +28,7 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <a class="masthead__language" href="{{ base_path }}{{ language_url }}">{{ language_label }}</a>
       </nav>
     </div>
   </div>
