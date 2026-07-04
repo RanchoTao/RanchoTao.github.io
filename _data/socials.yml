@@ -1,0 +1,37 @@
+# Language-aware sidebar social links.
+# Leave url blank to hide an item; do not use placeholder links.
+en:
+  - label: "Email"
+    url: "mailto:RanchoTao@gmail.com"
+    icon: "fas fa-fw fa-envelope"
+  - label: "GitHub"
+    url: "https://github.com/RanchoTao"
+    icon: "fab fa-fw fa-github"
+  - label: "X"
+    url:
+    icon: "fab fa-fw fa-twitter"
+  - label: "Instagram"
+    url:
+    icon: "fab fa-fw fa-instagram"
+  - label: "TikTok"
+    url:
+    icon: "fab fa-fw fa-tiktok"
+  - label: "YouTube"
+    url:
+    icon: "fab fa-fw fa-youtube"
+zh:
+  - label: "邮箱"
+    url: "mailto:RanchoTao@gmail.com"
+    icon: "fas fa-fw fa-envelope"
+  - label: "GitHub"
+    url: "https://github.com/RanchoTao"
+    icon: "fab fa-fw fa-github"
+  - label: "抖音"
+    url:
+    icon: "fas fa-fw fa-video"
+  - label: "B站"
+    url:
+    icon: "fas fa-fw fa-play-circle"
+  - label: "小红书"
+    url:
+    icon: "fas fa-fw fa-book-open"

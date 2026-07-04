@@ -430,3 +430,50 @@
     }
   }
 }
+/* Keep language switching visually separate from primary navigation. */
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 4.75rem;
+
+  .visible-links {
+    flex: 1 1 auto;
+  }
+}
+
+.masthead__language {
+  position: absolute !important;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 !important;
+  padding: 0.35rem 0.65rem !important;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: mix(#fff, $lighter-gray, 65%);
+  color: $masthead-link-color;
+  font-size: $type-size-6;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.masthead__language:hover {
+  background: mix(#fff, $primary-color, 88%);
+  color: $masthead-link-color-hover;
+}
+
+@include breakpoint(max-width $small) {
+  .greedy-nav {
+    min-width: 0;
+    padding-right: 4.5rem;
+  }
+
+  .greedy-nav a {
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0.7em;
+  }
+}
