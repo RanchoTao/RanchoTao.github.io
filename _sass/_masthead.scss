@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* ========================================================================
    MASTHEAD
-   ========================================================================== */
+   ======================================================================== */
 
 .masthead {
   position: relative;
@@ -21,14 +21,54 @@
       max-width: $x-large;
     }
 
-    nav {
-      z-index: 10;
-    }
-
     a {
       text-decoration: none;
     }
   }
+}
+
+.masthead__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2rem;
+}
+
+.masthead__brand {
+  flex: 0 0 auto;
+  color: $masthead-link-color;
+  font-weight: 700;
+  white-space: nowrap;
+
+  &:hover {
+    color: $masthead-link-color-hover;
+  }
+}
+
+.masthead__links {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+
+  a {
+    color: $masthead-link-color;
+    font-weight: 500;
+    white-space: nowrap;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+}
+
+.masthead__language {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
 }
 
 .masthead__menu {
@@ -49,5 +89,17 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .masthead__nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .masthead__links {
+    justify-content: flex-start;
   }
 }
