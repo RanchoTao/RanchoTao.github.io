@@ -2,6 +2,7 @@
 permalink: /
 title: "Shengye Tao"
 author_profile: true
+lang: en
 redirect_from: 
   - /about/
   - /about.html
@@ -13,14 +14,13 @@ redirect_from:
   <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
   <p>
     I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
-    world models, and human-computer workflows. I build small reproducible systems and research
-    prototypes to turn abstract questions into testable structures.
+    and world models. I build small reproducible systems and research prototypes to turn abstract
+    questions into testable structures.
   </p>
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
     <a class="btn" href="{{ '/CV.pdf' | relative_url }}">CV</a>
     <a class="btn" href="{{ '/blog/' | relative_url }}">Posts</a>
-    <a class="btn" href="{{ '/zh/' | relative_url }}">中文</a>
   </p>
 </section>
 
@@ -31,7 +31,6 @@ redirect_from:
   <div>Digital Life &amp; Minimal Formal Systems</div>
   <div>World Models &amp; Cognitive Transformation</div>
   <div>Quantitative Systems &amp; Market Structure</div>
-  <div>Human-Computer Workflows</div>
 </div>
 
 ## Selected Work
@@ -53,24 +52,27 @@ redirect_from:
     <h3>Digital Life Minimal Model</h3>
     <p>A formal exploration of boundary maintenance, endogenous value, persistent identity, and environment coupling in digital systems.</p>
   </article>
-  <article class="work-card">
-    <p class="work-status">Notes</p>
-    <h3>Learning Theory Reading Map</h3>
-    <p>Structured notes and reading paths for bandits, online learning, reinforcement learning, and related mathematical foundations.</p>
-  </article>
 </div>
 
-## Recent Posts
+## Recent Activities
 
-{% if site.posts.size > 0 %}
-<ul class="post-list-compact">
-  {% for post in site.posts limit:5 %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>Working papers and notes will be listed here.</p>
-{% endif %}
+<div class="activity-list">
+  <article class="activity-item">
+    <p class="activity-meta">2025.11 – Now · Undergraduate Student</p>
+    <h3>BIMSA Math &amp; AI Program</h3>
+    <p>Joined the Mathematics &amp; AI undergraduate program at BIMSA, focusing on mathematical foundations, artificial intelligence, and research-oriented training.</p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">2026.06 · Participant</p>
+    <h3>Tsinghua Qiuzhen / YMSC AI Summer School</h3>
+    <p>Attended lectures and discussions on generative models, diffusion models, and mathematical perspectives on modern AI.</p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">2026.07 · Participant</p>
+    <h3>Peking University Machine Learning Workshop</h3>
+    <p>Participated in academic talks and discussions on machine learning, research practices, and possible future research directions.</p>
+  </article>
+</div>
 
 ## Academic Profile
 

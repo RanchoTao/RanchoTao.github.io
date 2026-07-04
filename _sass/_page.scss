@@ -607,3 +607,61 @@
   color: $muted-text-color;
   font-size: 0.8rem;
 }
+
+/* Homepage layout refinements */
+.interest-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.work-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.activity-item {
+  padding: 1rem;
+  border: 1px solid $border-color;
+  border-radius: 0.35rem;
+  background: $background-color;
+}
+
+.activity-item h3 {
+  margin-top: 0.15rem;
+  margin-bottom: 0.4rem;
+  font-size: $type-size-5;
+}
+
+.activity-item p:last-child {
+  margin-bottom: 0;
+}
+
+.activity-meta {
+  margin: 0;
+  color: $muted-text-color;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+@include breakpoint(max-width $medium) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+}
