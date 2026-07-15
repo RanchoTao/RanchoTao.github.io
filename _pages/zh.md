@@ -3,6 +3,9 @@ permalink: /zh/
 title: "陶圣叶"
 author_profile: true
 lang: zh
+redirect_from:
+  - /zh/about/
+  - /zh/about.html
 ---
 
 <section class="home-hero">

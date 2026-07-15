@@ -430,23 +430,42 @@
     }
   }
 }
-/* Keep language switching visually separate from primary navigation. */
+
+/* Unified masthead navigation with an in-row language switcher. */
 .greedy-nav {
   display: flex;
   align-items: center;
-  padding-right: 4.75rem;
+  gap: 1rem;
+  min-width: 0;
 
   .visible-links {
-    flex: 1 1 auto;
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    min-width: 0;
+    width: max-content;
+    white-space: nowrap;
+
+    li {
+      display: block;
+      flex: 0 0 auto;
+    }
+  }
+
+  button {
+    position: static;
+    display: none;
+    flex: 0 0 auto;
+    height: 2rem;
   }
 }
 
 .masthead__language {
-  position: absolute !important;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 !important;
+  display: inline-flex !important;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 auto !important;
   padding: 0.35rem 0.65rem !important;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -462,15 +481,18 @@
   color: $masthead-link-color-hover;
 }
 
-@include breakpoint(max-width $small) {
+@include breakpoint(max-width $medium) {
   .greedy-nav {
-    min-width: 0;
-    padding-right: 4.5rem;
-  }
+    gap: 0.45rem;
 
-  .greedy-nav a {
-    margin-left: 0.45rem;
-    margin-right: 0.45rem;
+    a {
+      margin-left: 0.45rem;
+      margin-right: 0.45rem;
+    }
+
+    button:not(.hidden) {
+      display: block;
+    }
   }
 
   .masthead__menu-item--lg {
