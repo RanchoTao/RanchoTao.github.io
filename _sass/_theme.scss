@@ -1,0 +1,118 @@
+/* Runtime theme tokens. Component overrides live here so all existing pages
+   share one light/dark system rather than page-specific dark styles. */
+:root {
+  --background: #f8f7f4;
+  --surface: #ffffff;
+  --surface-hover: #f0efeb;
+  --text-primary: #25282a;
+  --text-secondary: #4f5559;
+  --text-muted: #737a7f;
+  --border: #deddd9;
+  --header-background: rgba(248, 247, 244, 0.9);
+  --accent: #9b3f3f;
+  --accent-hover: #782f2f;
+  --shadow: 0 8px 24px rgba(26, 29, 31, 0.08);
+  --code-background: #efeeea;
+}
+
+html[data-theme="dark"] {
+  --background: #17191b;
+  --surface: #202326;
+  --surface-hover: #292d30;
+  --text-primary: #eceae5;
+  --text-secondary: #c1c3c2;
+  --text-muted: #969c9e;
+  --border: #373b3e;
+  --header-background: rgba(23, 25, 27, 0.9);
+  --accent: #d47a76;
+  --accent-hover: #e79a96;
+  --shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  --code-background: #25292c;
+}
+
+html { background: var(--background); }
+
+body {
+  color: var(--text-primary);
+  background: var(--background);
+}
+
+a { color: var(--accent); }
+a:visited { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+h1, h2, h3, h4, h5, h6, strong { color: var(--text-primary); }
+hr, table, th, td { border-color: var(--border); }
+thead { background: var(--surface-hover); }
+
+p > code, a > code, li > code, figcaption > code, td > code,
+pre, .highlight { background: var(--code-background); border-color: var(--border); }
+
+blockquote { color: var(--text-secondary); border-left-color: var(--accent); }
+.page__content, .archive, .page__meta, .page__date { color: var(--text-primary); }
+.page__meta, .page__date, figcaption { color: var(--text-muted); }
+
+.sidebar, .author__bio, .author__urls a { color: var(--text-secondary); }
+.author__avatar img { border-color: var(--border); }
+.author__urls { color: var(--text-secondary); background: var(--surface); border-color: var(--border); box-shadow: var(--shadow); }
+.author__urls::before { border-color: var(--border) transparent; }
+.author__urls::after { border-color: var(--surface) transparent; }
+
+.page__footer {
+  color: var(--text-muted);
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.btn {
+  color: #fff !important;
+  background: var(--accent);
+  border-color: var(--accent) !important;
+}
+.btn:hover { background: var(--accent-hover); }
+
+.interest-grid > div, .work-card, .activity-item,
+.page__content .interest-grid section, .page__content .project-list article {
+  color: var(--text-primary);
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.home-kicker, .home-subtitle, .work-status, .activity-meta,
+.page__content .interest-grid p { color: var(--text-muted); }
+.page__content .home-note { color: var(--text-secondary); background: var(--surface); }
+.archive__subtitle, .archive__item-excerpt { color: var(--text-muted); border-color: var(--border); }
+
+.notice, .notice--primary, .notice--info, .notice--warning,
+.notice--success, .notice--danger, .well, .modal {
+  color: var(--text-primary);
+  background: var(--surface);
+  border-color: var(--border);
+  box-shadow: var(--shadow);
+}
+
+.pagination li a, .pagination li div,
+.nav__list .nav__items, .toc {
+  color: var(--text-secondary);
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+div.highlighter-rouge, figure.highlight {
+  background: var(--code-background);
+  border-color: var(--border);
+  box-shadow: var(--shadow);
+}
+div.highlighter-rouge::before, figure.highlight::before { background: var(--surface-hover); }
+
+input, textarea, select {
+  color: var(--text-primary);
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+::selection { color: #fff; background: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms; animation-iteration-count: 1; transition-duration: 0.01ms; }
+}

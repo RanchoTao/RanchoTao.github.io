@@ -1,12 +1,16 @@
 ---
 layout: archive
-title: "Academic"
-permalink: /zh/academic/
+title: "研究"
+permalink: /zh/research/
 author_profile: true
 lang: zh
+translation_key: research
+nav_key: research
+redirect_from:
+  - /zh/academic/
 ---
 
-# Academic
+# 研究
 
 ## 教育背景
 
