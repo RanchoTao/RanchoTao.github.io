@@ -15,6 +15,7 @@ url                      : https://RanchoTao.github.io # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RanchoTao/RanchoTao.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+post_card_default_image   : "/images/posts/default-cover.svg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true

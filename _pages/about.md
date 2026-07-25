@@ -54,6 +54,22 @@ redirect_from:
   </article>
 </div>
 
+<section class="notes-section" aria-labelledby="recent-notes-title">
+  <div class="notes-section__header">
+    <h2 id="recent-notes-title">Recent Notes</h2>
+    <a class="notes-section__all" href="{{ '/blog/' | relative_url }}">View all notes →</a>
+  </div>
+  {% if site.posts.size > 0 %}
+    <div class="post-card-grid">
+      {% for post in site.posts limit:3 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>New research notes are on the way.</p>
+  {% endif %}
+</section>
+
 ## Recent Activities
 
 <div class="activity-list">
