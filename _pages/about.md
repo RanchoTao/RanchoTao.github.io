@@ -11,9 +11,8 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">Mathematics & AI · Learning theory · Systems research</p>
   <h1>Shengye Tao</h1>
-  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
+  <p class="home-subtitle">Mathematics &amp; AI at BIMSA</p>
   <p>
     I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
     and world models. I build small reproducible systems and research prototypes to turn abstract
@@ -42,7 +41,7 @@ redirect_from:
     <p class="work-status">Work in progress</p>
     <h3>Visual Deadline</h3>
     <p>A cognitive scheduling system for visualizing task pressure, deadlines, attention load, and long-term goals.</p>
-    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
+    <p><a href="https://www.visualdeadline.com/">VisualDeadline</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">Draft</p>
