@@ -23,7 +23,8 @@
   @include breakpoint($x-large) { max-width: $x-large; }
 }
 
-.masthead__brand {
+.masthead__brand,
+.masthead__brand:visited {
   flex: none;
   color: var(--text-primary);
   font-size: 1.05rem;
@@ -31,7 +32,7 @@
   text-decoration: none;
   white-space: nowrap;
 
-  &:hover { color: var(--accent); }
+  &:hover { color: var(--text-primary); }
 }
 
 .masthead__navigation {
@@ -49,7 +50,8 @@
 
   li { margin: 0; }
 
-  a {
+  a,
+  a:visited {
     position: relative;
     display: block;
     padding: 0.65rem 0.8rem;
@@ -76,6 +78,8 @@
       }
     }
   }
+
+  a.is-active:visited { color: var(--accent); }
 }
 
 .masthead__tools {
@@ -85,7 +89,8 @@
   gap: 0.35rem;
 }
 
-.masthead__tool {
+.masthead__tool,
+.masthead__tool:visited {
   display: inline-flex;
   min-width: 38px;
   min-height: 38px;

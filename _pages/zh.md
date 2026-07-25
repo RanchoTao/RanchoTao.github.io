@@ -40,7 +40,7 @@ redirect_from:
     <p class="work-status">进行中</p>
     <h3>Visual Deadline</h3>
     <p>一个用于可视化任务压力、截止日期、注意力负载与长期目标的认知调度系统。</p>
-    <p><a href="https://www.visualdeadline.com/">VisualDeadline</a></p>
+    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">草稿</p>

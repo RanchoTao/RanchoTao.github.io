@@ -41,7 +41,7 @@ redirect_from:
     <p class="work-status">Work in progress</p>
     <h3>Visual Deadline</h3>
     <p>A cognitive scheduling system for visualizing task pressure, deadlines, attention load, and long-term goals.</p>
-    <p><a href="https://www.visualdeadline.com/">VisualDeadline</a></p>
+    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">Draft</p>
