@@ -2,6 +2,8 @@
 title: "研究日志 001：从空白页开始"
 date: 2026-07-25
 permalink: /posts/2026/07/research-log-001/
+header:
+  teaser: /images/posts/blog20260725.png
 tags:
   - Research
   - AI

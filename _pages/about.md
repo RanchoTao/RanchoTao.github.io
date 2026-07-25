@@ -11,9 +11,8 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">Mathematics & AI · Learning theory · Systems research</p>
   <h1>Shengye Tao</h1>
-  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
+  <p class="home-subtitle">Mathematics &amp; AI at BIMSA</p>
   <p>
     I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
     and world models. I build small reproducible systems and research prototypes to turn abstract
@@ -55,6 +54,22 @@ redirect_from:
     <p>A formal exploration of boundary maintenance, endogenous value, persistent identity, and environment coupling in digital systems.</p>
   </article>
 </div>
+
+<section class="notes-section" aria-labelledby="recent-notes-title">
+  <div class="notes-section__header">
+    <h2 id="recent-notes-title">Recent Notes</h2>
+    <a class="notes-section__all" href="{{ '/blog/' | relative_url }}">View all notes →</a>
+  </div>
+  {% if site.posts.size > 0 %}
+    <div class="post-card-grid">
+      {% for post in site.posts limit:3 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>New research notes are on the way.</p>
+  {% endif %}
+</section>
 
 ## Recent Activities
 
