@@ -1,16 +1,27 @@
-# main links links
-main:
-  - title: "About"
+en:
+  - key: home
+    title: Home
     url: /
-
-  - title: "Academic"
-    url: /academic/
-
-  - title: "Projects"
+  - key: research
+    title: Research
+    url: /research/
+  - key: projects
+    title: Projects
     url: /projects/
+  - key: notes
+    title: Notes
+    url: /notes/
 
-  - title: "Blog"
-    url: /blog/
-
-  - title: "Life"
-    url: /life/
+zh:
+  - key: home
+    title: 首页
+    url: /zh/
+  - key: research
+    title: 研究
+    url: /zh/research/
+  - key: projects
+    title: 项目
+    url: /zh/projects/
+  - key: notes
+    title: 笔记
+    url: /zh/notes/

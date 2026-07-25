@@ -1,12 +1,14 @@
 ---
 layout: archive
-title: "Projects"
+title: "项目"
 permalink: /zh/projects/
 author_profile: true
 lang: zh
+translation_key: projects
+nav_key: projects
 ---
 
-# Projects
+# 项目
 
 我用小型项目检验数学、AI、个人系统与量化建模交界处的想法。
 
