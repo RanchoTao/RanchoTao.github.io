@@ -11,11 +11,10 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">数学与人工智能 · 学习理论 · 系统研究</p>
   <h1>陶圣叶</h1>
-  <p class="home-subtitle">数学与人工智能方向本科生，BIMSA</p>
+  <p class="home-subtitle">数学与人工智能本科生，北京雁栖湖应用数学研究院</p>
   <p>
-    我目前在北京雁栖湖应用数学研究院数学与人工智能方向学习，关注学习理论、序贯决策、量化系统、数字生命与世界模型。
+    我关注学习理论、序贯决策、金融数学、数字生命与认知改造。
     我希望把抽象问题转化为可以复现、测试和持续迭代的系统、笔记、原型与论文。
   </p>
   <p class="home-actions">
@@ -41,11 +40,11 @@ redirect_from:
     <p class="work-status">进行中</p>
     <h3>Visual Deadline</h3>
     <p>一个用于可视化任务压力、截止日期、注意力负载与长期目标的认知调度系统。</p>
-    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
+    <p><a href="https://www.visualdeadline.com/">VisualDeadline</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">草稿</p>
-    <h3>MarketManifold</h3>
+    <h3>Market Manifold</h3>
     <p>一个基于相关性、距离、MDS、PCA 和聚类的市场结构可视化项目。</p>
   </article>
   <article class="work-card">
@@ -60,12 +59,12 @@ redirect_from:
 <div class="activity-list">
   <article class="activity-item">
     <p class="activity-meta">2025.11 – 至今 · 本科生</p>
-    <h3>BIMSA 数学与人工智能项目</h3>
-    <p>加入北京雁栖湖应用数学研究院数学与人工智能本科项目，学习数学基础、人工智能与研究型训练。</p>
+    <h3>数学与人工智能</h3>
+    <p>进入北京雁栖湖应用数学研究院数学与人工智能本科，学习纯数学和人工智能，并进行研究训练。</p>
   </article>
   <article class="activity-item">
     <p class="activity-meta">2026.06 · 参与者</p>
-    <h3>清华求真 / 丘成桐数学科学中心 AI 暑校</h3>
+    <h3>清华大学求真书院 / 丘成桐数学科学中心人工智能暑期学校</h3>
     <p>参加关于生成模型、扩散模型及现代人工智能数学视角的课程与讨论。</p>
   </article>
   <article class="activity-item">
