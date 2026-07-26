@@ -1,49 +1,29 @@
-{% include base_path %}
-{% assign current_url = page.url | default: '/' %}
 {% assign current_lang = page.lang | default: 'en' %}
-{% if current_url == '/zh/' or current_url contains '/zh/' %}
-  {% assign current_lang = 'zh' %}
-{% endif %}
-{% if current_lang == 'zh' %}
-  {% assign language_label = 'English' %}
-  {% assign language_url = current_url | remove_first: '/zh' %}
-  {% if language_url == '' %}
-    {% assign language_url = '/' %}
-  {% endif %}
-{% else %}
-  {% assign language_label = '中文' %}
-  {% if current_url == '/' %}
-    {% assign language_url = '/zh/' %}
-  {% else %}
-    {% assign language_url = current_url | prepend: '/zh' %}
-  {% endif %}
-{% endif %}
+{% if current_lang == 'zh' %}{% assign nav_items = site.data.navigation.zh %}{% assign labels = site.data.i18n.zh %}{% assign home_url = '/zh/' %}{% else %}{% assign current_lang = 'en' %}{% assign nav_items = site.data.navigation.en %}{% assign labels = site.data.i18n.en %}{% assign home_url = '/' %}{% endif %}
+{% assign active_key = page.nav_key %}
+{% if page.collection == 'posts' %}{% assign active_key = 'notes' %}{% endif %}
 
-<div class="masthead">
+<header id="site-header" class="masthead" data-site-header>
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{% if current_lang == 'zh' %}/zh/{% else %}/{% endif %}">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign nav_url = link.url %}
-            {% elsif current_lang == 'zh' %}
-              {% if link.url == '/' %}
-                {% assign nav_url = '/zh/' | prepend: base_path %}
-              {% else %}
-                {% assign nav_url = link.url | prepend: '/zh' | prepend: base_path %}
-              {% endif %}
-            {% else %}
-              {% assign nav_url = link.url | prepend: base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ nav_url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a class="masthead__language" href="{{ language_url | prepend: base_path }}">{{ language_label }}</a>
-        <button class="greedy-nav__toggle" aria-label="Toggle menu"><div class="navicon"></div></button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    <a class="masthead__brand" href="{{ home_url | relative_url }}">Shengye Tao</a>
+
+    <nav id="site-navigation" class="masthead__navigation" aria-label="{{ labels.primary_navigation }}" data-site-navigation>
+      <ul>
+        {% for link in nav_items %}
+          <li><a href="{{ link.url | relative_url }}"{% if link.key == active_key %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="masthead__tools">
+      {% include language-switch.html %}
+      <button class="masthead__tool theme-toggle" type="button" data-theme-toggle aria-label="{{ labels.switch_to_dark }}" data-label-dark="{{ labels.switch_to_dark }}" data-label-light="{{ labels.switch_to_light }}">
+        <svg class="theme-toggle__moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.2A8.5 8.5 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z"></path></svg>
+        <svg class="theme-toggle__sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+      </button>
+      <button class="masthead__tool masthead__menu-toggle" type="button" aria-label="{{ labels.open_menu }}" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle data-label-open="{{ labels.open_menu }}" data-label-close="{{ labels.close_menu }}">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
     </div>
   </div>
-</div>
+</header>
