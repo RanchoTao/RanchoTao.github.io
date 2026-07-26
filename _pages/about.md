@@ -56,6 +56,23 @@ redirect_from:
   </article>
 </div>
 
+{% assign english_posts = site.posts | where: "lang", "en" %}
+<section class="notes-section" aria-labelledby="recent-notes-title">
+  <div class="notes-section__header">
+    <h2 id="recent-notes-title">Recent Notes</h2>
+    <a class="notes-section__all" href="{{ '/notes/' | relative_url }}">View all notes →</a>
+  </div>
+  {% if english_posts.size > 0 %}
+    <div class="post-card-grid">
+      {% for post in english_posts limit:3 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>New English research notes are on the way.</p>
+  {% endif %}
+</section>
+
 ## Recent Activities
 
 <div class="activity-list">

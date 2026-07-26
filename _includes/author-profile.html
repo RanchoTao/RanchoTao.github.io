@@ -1,39 +1,50 @@
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
+
+{% assign profile_lang = page.lang | default: 'en' %}
+{% if profile_lang == 'zh' %}
+  {% assign localized_profile = site.data.profile.zh %}
+  {% assign labels = site.data.i18n.zh %}
+{% else %}
+  {% assign profile_lang = 'en' %}
+  {% assign localized_profile = site.data.profile.en %}
+  {% assign labels = site.data.i18n.en %}
+{% endif %}
+{% assign profile_name = localized_profile.name | default: author.name %}
+{% assign profile_bio = localized_profile.bio | default: author.bio %}
+{% assign profile_location = localized_profile.location | default: author.location %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" alt="{{ profile_name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="author__avatar" alt="{{ profile_name }}">
     {% endif %}
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{{ profile_name }}</h3>
+    {% if profile_bio %}<p class="author__bio">{{ profile_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">{{ labels.follow }}</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if profile_location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ profile_location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
-      {% endif %}
-      {% assign profile_lang = page.lang | default: 'en' %}
-      {% if page.url == '/zh/' %}
-        {% assign profile_lang = 'zh' %}
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {% if profile_lang == 'zh' %}网站{% else %}Website{% endif %}</a></li>
       {% endif %}
       {% assign social_links = site.data.socials[profile_lang] | default: site.data.socials.en %}
       {% for social in social_links %}
@@ -42,7 +53,7 @@
         {% endif %}
       {% endfor %}
       {% if author.stackoverflow %}
-        <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
+        <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
       {% endif %}
       {% if author.lastfm %}
         <li><a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i> Last.fm</a></li>
@@ -63,10 +74,10 @@
         <li><a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
       {% endif %}
       {% if author.soundcloud %}
-        <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>
+        <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> SoundCloud</a></li>
       {% endif %}
       {% if author.weibo %}
-        <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
+        <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> 微博</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
@@ -102,7 +113,7 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> X</a></li>
       {% endif %}
     </ul>
   </div>

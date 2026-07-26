@@ -2,10 +2,13 @@
 title: "研究日志 001：从空白页开始"
 date: 2026-07-25
 permalink: /posts/2026/07/research-log-001/
+lang: zh
+header:
+  teaser: /images/posts/blog20260725.png
 tags:
-  - Research
-  - AI
-  - Systems
+  - 研究
+  - 人工智能
+  - 系统
 excerpt: "关于我为什么开始记录，以及目前正在推进的研究与项目。"
 ---
 

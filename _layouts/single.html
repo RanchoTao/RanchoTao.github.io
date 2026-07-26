@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% include base_path %}
+{% assign content_lang = page.lang | default: 'en' %}
+{% if content_lang == 'zh' %}{% assign labels = site.data.i18n.zh %}{% else %}{% assign content_lang = 'en' %}{% assign labels = site.data.i18n.en %}{% endif %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -20,8 +22,8 @@ layout: default
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image or content contains '<h1' %}
@@ -30,36 +32,34 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-             
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
-    
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ labels.updated }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{% if content_lang == 'zh' %}{{ page.modified | date: "%Y年%m月%d日" }}{% else %}{{ page.modified | date: "%B %d, %Y" }}{% endif %}</time></p>
+          {% endif %}
+
+          {% if page.collection == 'teaching' %}
+            <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif page.venue and page.date %}
+            <p>{% if content_lang == 'zh' %}发表于{% else %}Published in{% endif %} <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ labels.published }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{% if content_lang == 'zh' %}{{ page.date | date: "%Y年%m月%d日" }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}</time></p>
+          {% endif %}
+
+          {% if page.citation and page.paperurl %}
+            <p>{% if content_lang == 'zh' %}推荐引用：{% else %}Recommended citation:{% endif %} {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          {% elsif page.citation %}
+            <p>{% if content_lang == 'zh' %}推荐引用：{% else %}Recommended citation:{% endif %} {{ page.citation }}</p>
+          {% endif %}
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ labels.direct_link }}</a></div>{% endif %}
       </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          <h4 class="page__meta-title">{% if content_lang == 'zh' %}页面信息{% else %}{{ site.data.ui-text[site.locale].meta_label }}{% endif %}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
@@ -74,12 +74,9 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
-      {% if site.data.ui-text[site.locale].related_label %}
-        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      {% endif %}
+      <h4 class="page__related-title">{% if content_lang == 'zh' %}你可能还会喜欢{% else %}You May Also Enjoy{% endif %}</h4>
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:4 %}
           {% include archive-single.html type="grid" %}
