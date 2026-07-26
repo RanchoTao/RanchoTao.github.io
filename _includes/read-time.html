@@ -1,17 +1,29 @@
 {% if post.read_time %}
   {% assign words = post.content | strip_html | number_of_words %}
+  {% assign read_lang = post.lang | default: page.lang | default: 'en' %}
 {% elsif page.read_time %}
   {% assign words = page.content | strip_html | number_of_words %}
+  {% assign read_lang = page.lang | default: 'en' %}
 {% endif %}
 
 {% if site.words_per_minute %}
-  {% if words < 180 %}
-	  {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% elsif words < 360 %}
-	  1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% else %}
-	  {{ words | divided_by:site.words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% endif %}
+  {% if read_lang == 'zh' %}
+    {% if words < 180 %}
+      少于 1 分钟阅读
+    {% elsif words < 360 %}
+      1 分钟阅读
+    {% else %}
+      {{ words | divided_by:site.words_per_minute }} 分钟阅读
+    {% endif %}
+  {% else %}
+    {% if words < 180 %}
+      less than 1 minute read
+    {% elsif words < 360 %}
+      1 minute read
+    {% else %}
+      {{ words | divided_by:site.words_per_minute }} minute read
+    {% endif %}
+  {% endif %}
 {% else %}
-  {{ site.data.ui-text[site.locale].undefined_wpm | "Undefined parameter words_per_minute at _config.yml" }}
+  Undefined parameter words_per_minute at _config.yml
 {% endif %}
