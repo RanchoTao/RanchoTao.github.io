@@ -13,14 +13,15 @@ header:
   og_image: "posts/spatial-sql/gadm_wkt_filter_buffer-1.png"
 ---
 
-I write short notes in Chinese and English about mathematics, AI, systems, investing, training, and daily life.
+I write short notes about mathematics, AI, systems, investing, training, and daily life.
 
-{% if site.posts.size > 0 %}
+{% assign english_posts = site.posts | where: "lang", "en" %}
+{% if english_posts.size > 0 %}
 <div class="post-card-grid" aria-label="All notes">
-  {% for post in site.posts %}
+  {% for post in english_posts %}
     {% include post-card.html post=post %}
   {% endfor %}
 </div>
 {% else %}
-<p>No notes have been published yet.</p>
+<p>No English notes have been published yet.</p>
 {% endif %}
