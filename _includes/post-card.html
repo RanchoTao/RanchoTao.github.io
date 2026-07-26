@@ -3,12 +3,14 @@
 {% assign card_image = card_post.header.teaser | default: card_post.image | default: site.post_card_default_image %}
 {% assign card_excerpt = card_post.excerpt | default: card_post.content | markdownify | strip_html | strip_newlines | normalize_whitespace %}
 {% assign card_title = card_post.title | markdownify | strip_html | strip_newlines %}
+{% assign card_lang = page.lang | default: card_post.lang | default: 'en' %}
+{% if card_lang == 'zh' %}{% assign labels = site.data.i18n.zh %}{% else %}{% assign card_lang = 'en' %}{% assign labels = site.data.i18n.en %}{% endif %}
 
 <article class="post-card" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="post-card__media">
     <img
       src="{% if card_image contains '://' %}{{ card_image }}{% else %}{{ card_image | relative_url }}{% endif %}"
-      alt="Cover image for {{ card_title | escape }}"
+      alt="{% if card_lang == 'zh' %}《{{ card_title | escape }}》的封面图{% else %}Cover image for {{ card_title | escape }}{% endif %}"
       loading="lazy"
       width="1600"
       height="900"
@@ -20,7 +22,7 @@
         {% for category in card_post.categories %}<span>{{ category }}</span>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}{% endfor %}
       </p>
     {% else %}
-      <p class="post-card__categories"><span>Note</span></p>
+      <p class="post-card__categories"><span>{{ labels.note }}</span></p>
     {% endif %}
 
     <h2 class="post-card__title" itemprop="headline">
@@ -31,7 +33,7 @@
     {% endif %}
 
     <footer class="post-card__meta">
-      <time datetime="{{ card_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ card_post.date | date: "%b %d, %Y" }}</time>
+      <time datetime="{{ card_post.date | date_to_xmlschema }}" itemprop="datePublished">{% if card_lang == 'zh' %}{{ card_post.date | date: "%Y年%m月%d日" }}{% else %}{{ card_post.date | date: "%b %d, %Y" }}{% endif %}</time>
       {% if card_post.read_time %}
         <span aria-hidden="true">·</span>
         <span>{% include read-time.html post=card_post %}</span>
