@@ -11,8 +11,9 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <h1>陶圣叶</h1>
-  <p class="home-subtitle">数学与人工智能本科生，北京雁栖湖应用数学研究院</p>
+  <p class="home-kicker">数学与人工智能 · 学习理论 · 系统研究</p>
+  <h1 data-scroll-title>陶圣叶</h1>
+  <p class="home-subtitle">数学与人工智能方向本科生，BIMSA</p>
   <p>
     我关注学习理论、序贯决策、金融数学、数字生命与认知改造。
     我希望把抽象问题转化为可以复现、测试和持续迭代的系统、笔记、原型与论文。

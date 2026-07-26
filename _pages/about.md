@@ -11,8 +11,9 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <h1>Shengye Tao</h1>
-  <p class="home-subtitle">Mathematics &amp; AI at BIMSA</p>
+  <p class="home-kicker">Mathematics & AI · Learning theory · Systems research</p>
+  <h1 data-scroll-title>Shengye Tao</h1>
+  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
   <p>
     I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
     and world models. I build small reproducible systems and research prototypes to turn abstract

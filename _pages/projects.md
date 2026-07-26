@@ -8,7 +8,7 @@ translation_key: projects
 nav_key: projects
 ---
 
-# Projects
+<h1 data-scroll-title>Projects</h1>
 
 I use small projects to test ideas at the boundary of mathematics, AI, personal systems, and quantitative modeling.
 

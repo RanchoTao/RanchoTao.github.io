@@ -6,7 +6,7 @@ author_profile: true
 lang: zh
 ---
 
-# Life
+<h1 data-scroll-title>Life</h1>
 
 这里会放一些课程与研究之外的片段：滑雪、健身、吉他、旅行与日常生活。
 

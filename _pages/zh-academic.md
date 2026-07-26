@@ -10,7 +10,7 @@ redirect_from:
   - /zh/academic/
 ---
 
-# 研究
+<h1 data-scroll-title>研究</h1>
 
 ## 教育背景
 

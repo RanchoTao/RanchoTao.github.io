@@ -13,7 +13,7 @@ redirect_from:
   - /cv/
 ---
 
-# Research
+<h1 data-scroll-title>Research</h1>
 
 ## Education
 

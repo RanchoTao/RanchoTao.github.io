@@ -8,7 +8,7 @@ translation_key: projects
 nav_key: projects
 ---
 
-# 项目
+<h1 data-scroll-title>项目</h1>
 
 我用小型项目检验数学、AI、个人系统与量化建模交界处的想法。
 

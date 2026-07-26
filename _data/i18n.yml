@@ -6,16 +6,6 @@ en:
   switch_to_light: Switch to light theme
   open_menu: Open navigation menu
   close_menu: Close navigation menu
-  follow: Follow
-  note: Note
-  published: Published:
-  updated: Updated:
-  share_on: Share on
-  previous: Previous
-  next: Next
-  tags: Tags:
-  categories: Categories:
-  direct_link: Direct Link
 zh:
   primary_navigation: 主导航
   switch_language: Switch to English
@@ -24,13 +14,3 @@ zh:
   switch_to_light: 切换到浅色主题
   open_menu: 打开导航菜单
   close_menu: 关闭导航菜单
-  follow: 关注
-  note: 笔记
-  published: 发布于：
-  updated: 更新于：
-  share_on: 分享至
-  previous: 上一篇
-  next: 下一篇
-  tags: 标签：
-  categories: 分类：
-  direct_link: 直接访问
