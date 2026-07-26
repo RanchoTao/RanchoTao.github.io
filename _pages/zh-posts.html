@@ -10,14 +10,15 @@ redirect_from:
   - /zh/blog/
 ---
 
-我会在这里整理关于数学、AI、系统、投资、训练与日常生活的短笔记。
+我会在这里整理关于数学、人工智能、系统、投资、训练与日常生活的短笔记。
 
-{% if site.posts.size > 0 %}
+{% assign chinese_posts = site.posts | where: "lang", "zh" %}
+{% if chinese_posts.size > 0 %}
 <div class="post-card-grid" aria-label="全部笔记">
-  {% for post in site.posts %}
+  {% for post in chinese_posts %}
     {% include post-card.html post=post %}
   {% endfor %}
 </div>
 {% else %}
-<p>暂时还没有发布笔记。</p>
+<p>暂时还没有发布中文笔记。</p>
 {% endif %}
