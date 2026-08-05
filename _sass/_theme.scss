@@ -56,6 +56,16 @@ blockquote { color: var(--text-secondary); border-left-color: var(--border); }
 .author__urls { color: var(--text-secondary); background: var(--surface); border-color: var(--border); box-shadow: var(--shadow); }
 .author__urls::before { border-color: var(--border) transparent; }
 .author__urls::after { border-color: var(--surface) transparent; }
+.author__urls li,
+.author__urls a { color: var(--text-secondary); }
+.author__urls a:hover { color: var(--text-primary); }
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .far,
+.author__urls .fab,
+.author__urls .ai {
+  color: currentColor !important;
+}
 
 .page__footer {
   color: var(--text-muted);
