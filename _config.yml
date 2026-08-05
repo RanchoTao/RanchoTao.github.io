@@ -15,6 +15,7 @@ url                      : https://ranchotao.com # canonical hostname; GitHub Pa
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RanchoTao/RanchoTao.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+post_card_default_image   : "/images/posts/default-cover.svg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,8 +82,8 @@ analytics:
 # Site Author
 author:
   name             : "Shengye Tao (陶圣叶)"
-  avatar           : "avatar1_2606.png"
-  bio              : "Undergraduate in Math & AI at BIMSA; exploring learning theory, quant trading, and systems for thought."
+  avatar           : "avatar1_2607.jpg"
+  bio              : "Math & AI at BIMSA; exploring learning theory, quant trading, and systems for thought."
   location         : "Beijing"
   employer         : 
   pubmed           : 

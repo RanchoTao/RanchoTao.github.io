@@ -1,0 +1,157 @@
+/* Reusable note cards. Kept separate from the theme's archive grid so that
+   publications, projects, talks, and related-post archives remain unchanged. */
+.post-card-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.post-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(#000, 0.045);
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-2px);
+    border-color: mix($link-color, $border-color, 35%);
+    box-shadow: 0 8px 22px rgba(#000, 0.09);
+  }
+}
+
+.post-card__media {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: $lighter-gray;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 220ms ease;
+  }
+}
+
+.post-card:hover .post-card__media img,
+.post-card:focus-within .post-card__media img {
+  transform: scale(1.035);
+}
+
+.post-card__body {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  padding: 1rem 1.1rem 1.05rem;
+}
+
+.post-card__categories {
+  margin: 0 0 0.45rem;
+  color: $link-color;
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.post-card__title {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &::after {
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      content: "";
+    }
+
+    &:hover { color: $link-color-hover; }
+
+    &:focus-visible {
+      outline: 3px solid $link-color;
+      outline-offset: 4px;
+    }
+  }
+}
+
+.post-card__excerpt {
+  display: -webkit-box;
+  margin: 0.7rem 0 1.1rem;
+  overflow: hidden;
+  color: $muted-text-color;
+  font-size: $type-size-6;
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.post-card__meta {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: auto;
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+}
+
+.notes-section {
+  margin-top: 2.75rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid $border-color;
+}
+
+.notes-section__header {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+
+  h2 { margin-bottom: 0; }
+}
+
+.notes-section__all {
+  flex: none;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+}
+
+@include breakpoint($small) {
+  .post-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@include breakpoint($medium-wide) {
+  .post-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-card,
+  .post-card__media img { transition: none; }
+
+  .post-card:hover,
+  .post-card:focus-within { transform: none; }
+
+  .post-card:hover .post-card__media img,
+  .post-card:focus-within .post-card__media img { transform: none; }
+}
