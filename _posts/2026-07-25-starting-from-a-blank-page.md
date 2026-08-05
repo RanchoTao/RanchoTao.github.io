@@ -1,5 +1,5 @@
 ---
-title: "研究日志 001：从空白页开始"
+title: "你好，世界！"
 date: 2026-07-25
 permalink: /posts/2026/07/research-log-001/
 lang: zh
