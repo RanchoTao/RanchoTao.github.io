@@ -14,9 +14,7 @@ tags:
 excerpt: "针对天梯排位的竞赛人工智能"
 ---
 
-本人闲暇是也会玩一些游戏，其中就有supercell开发的clash royale
-
-# 我想做一个真正会打《皇室战争》的 AI
+本人闲暇时也会玩一些游戏，其中就有supercell开发的clash royale
 
 最近，我开始尝试做一个能够自主游玩《皇室战争》的 AI 项目。
 
