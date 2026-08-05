@@ -61,33 +61,33 @@ $text-color                 : $dark-gray;
 $muted-text-color           : mix(#fff, $text-color, 25%);
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
-$success-color              : #64748b;
-$warning-color              : #64748b;
-$danger-color               : #475569;
-$info-color                 : #2563eb;
+$primary-color              : #8e8e89;
+$success-color              : #8e8e89;
+$warning-color              : #8e8e89;
+$danger-color               : #8e8e89;
+$info-color                 : #e7e7e2;
 
 /* brands */
-$behance-color              : #2563eb;
-$dribbble-color             : #2563eb;
-$facebook-color             : #2563eb;
-$flickr-color               : #2563eb;
-$foursquare-color           : #2563eb;
-$github-color               : #0f172a;
-$google-plus-color          : #2563eb;
-$instagram-color            : #2563eb;
-$lastfm-color               : #2563eb;
-$linkedin-color             : #2563eb;
-$pinterest-color            : #2563eb;
-$rss-color                  : #2563eb;
-$soundcloud-color           : #2563eb;
-$stackoverflow-color        : #2563eb;
-$tumblr-color               : #2563eb;
-$twitter-color              : #2563eb;
-$vimeo-color                : #2563eb;
-$vine-color                 : #2563eb;
-$youtube-color              : #2563eb;
-$xing-color                 : #2563eb;
+$behance-color              : #c1c1bd;
+$dribbble-color             : #c1c1bd;
+$facebook-color             : #c1c1bd;
+$flickr-color               : #c1c1bd;
+$foursquare-color           : #c1c1bd;
+$github-color               : #f2f2f0;
+$google-plus-color          : #c1c1bd;
+$instagram-color            : #c1c1bd;
+$lastfm-color               : #c1c1bd;
+$linkedin-color             : #c1c1bd;
+$pinterest-color            : #c1c1bd;
+$rss-color                  : #c1c1bd;
+$soundcloud-color           : #c1c1bd;
+$stackoverflow-color        : #c1c1bd;
+$tumblr-color               : #c1c1bd;
+$twitter-color              : #c1c1bd;
+$vimeo-color                : #c1c1bd;
+$vine-color                 : #c1c1bd;
+$youtube-color              : #c1c1bd;
+$xing-color                 : #c1c1bd;
 
 
 /* links */
@@ -136,7 +136,7 @@ $susy: (
   global-box-sizing: border-box,
   // debug: (
   //   image: show,
-  //   color: blue,
+  //   color: gray,
   //   output: overlay,
   //   toggle: top right,
   // ),

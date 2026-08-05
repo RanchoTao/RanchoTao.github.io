@@ -41,7 +41,7 @@ redirect_from:
     <p class="work-status">产品</p>
     <h3>Visual Deadline</h3>
     <p>一个用于可视化任务压力、截止日期、注意力负载与长期目标的认知调度系统。</p>
-    <p><a href="https://visual-deadline.vercel.app">访问网站</a></p>
+    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">开放知识库</p>

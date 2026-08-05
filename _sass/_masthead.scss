@@ -6,8 +6,8 @@
   width: 100%;
   background: var(--header-background);
   border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 
 .masthead__inner-wrap {
@@ -71,7 +71,7 @@
         right: 0.8rem;
         bottom: 0.35rem;
         left: 0.8rem;
-        height: 2px;
+        height: 1px;
         background: var(--accent);
         border-radius: 2px;
         content: "";

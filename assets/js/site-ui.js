@@ -13,7 +13,7 @@
       themeButton.setAttribute('aria-label', theme === 'dark' ? themeButton.dataset.labelLight : themeButton.dataset.labelDark);
     }
     var themeMeta = document.querySelector('meta[name="theme-color"]');
-    if (themeMeta) themeMeta.setAttribute('content', theme === 'dark' ? '#0b0f14' : '#f8fafc');
+    if (themeMeta) themeMeta.setAttribute('content', '#181818');
     if (persist) {
       try { localStorage.setItem('site-theme', theme); } catch (error) { /* Storage may be unavailable. */ }
     }
