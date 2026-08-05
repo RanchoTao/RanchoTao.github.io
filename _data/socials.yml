@@ -7,18 +7,27 @@ en:
   - label: "GitHub"
     url: "https://github.com/RanchoTao"
     icon: "fab fa-fw fa-github"
+  - label: "Zhihu"
+    url: "https://www.zhihu.com/people/36-45-36-89-46"
+    icon: "fas fa-fw fa-link"
   - label: "X"
-    url:
+    url: "https://x.com/RanchoTao"
     icon: "fab fa-fw fa-twitter"
-  - label: "Instagram"
-    url:
-    icon: "fab fa-fw fa-instagram"
-  - label: "TikTok"
-    url:
-    icon: "fab fa-fw fa-tiktok"
   - label: "YouTube"
-    url:
+    url: "https://www.youtube.com/@RanchoTao"
     icon: "fab fa-fw fa-youtube"
+  - label: "Douyin"
+    url:
+    icon: "fas fa-fw fa-video"
+  - label: "Xiaohongshu"
+    url:
+    icon: "fas fa-fw fa-book-open"
+  - label: "WeChat Official Account"
+    url:
+    icon: "fab fa-fw fa-weixin"
+  - label: "Bilibili"
+    url:
+    icon: "fas fa-fw fa-play-circle"
 zh:
   - label: "邮箱"
     url: "mailto:RanchoTao@gmail.com"
@@ -26,12 +35,24 @@ zh:
   - label: "GitHub"
     url: "https://github.com/RanchoTao"
     icon: "fab fa-fw fa-github"
+  - label: "知乎"
+    url: "https://www.zhihu.com/people/36-45-36-89-46"
+    icon: "fas fa-fw fa-link"
+  - label: "X"
+    url: "https://x.com/RanchoTao"
+    icon: "fab fa-fw fa-twitter"
+  - label: "YouTube"
+    url: "https://www.youtube.com/@RanchoTao"
+    icon: "fab fa-fw fa-youtube"
   - label: "抖音"
     url:
     icon: "fas fa-fw fa-video"
-  - label: "B站"
-    url:
-    icon: "fas fa-fw fa-play-circle"
   - label: "小红书"
     url:
     icon: "fas fa-fw fa-book-open"
+  - label: "公众号"
+    url:
+    icon: "fab fa-fw fa-weixin"
+  - label: "B站"
+    url:
+    icon: "fas fa-fw fa-play-circle"
