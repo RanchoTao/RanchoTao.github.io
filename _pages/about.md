@@ -39,20 +39,22 @@ redirect_from:
 
 <div class="work-grid">
   <article class="work-card">
-    <p class="work-status">Work in progress</p>
+    <p class="work-status">Product</p>
     <h3>Visual Deadline</h3>
     <p>A cognitive scheduling system for visualizing task pressure, deadlines, attention load, and long-term goals.</p>
-    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
+    <p><a href="https://visual-deadline.vercel.app">Visit website</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">Draft</p>
-    <h3>MarketManifold</h3>
-    <p>A market structure visualization project based on correlation, distance, MDS, PCA, and clustering.</p>
+    <p class="work-status">Open knowledge base</p>
+    <h3>BIMSA MathAI</h3>
+    <p>An unofficial open knowledge base and course archive for learners in the BIMSA Mathematics and AI program.</p>
+    <p><a href="https://ranchotao.com/BIMSA-MathAI/">Visit website</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">Notes</p>
-    <h3>Digital Life Minimal Model</h3>
-    <p>A formal exploration of boundary maintenance, endogenous value, persistent identity, and environment coupling in digital systems.</p>
+    <p class="work-status">Knowledge atlas</p>
+    <h3>Math · CS · AI Atlas</h3>
+    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
+    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
   </article>
 </div>
 
