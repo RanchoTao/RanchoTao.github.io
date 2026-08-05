@@ -3,9 +3,12 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+lang: en
+translation_key: projects
+nav_key: projects
 ---
 
-# Projects
+<h1 data-scroll-title>Projects</h1>
 
 I use small projects to test ideas at the boundary of mathematics, AI, personal systems, and quantitative modeling.
 
@@ -14,7 +17,7 @@ I use small projects to test ideas at the boundary of mathematics, AI, personal 
     <h3>Visualized Deadline (VD)</h3>
     <p>A task and pressure visualization system for long-horizon planning and attention management.</p>
     <p><strong>Status.</strong> Ongoing prototype</p>
-    <p><a href="https://github.com/RanchoTao/VD">GitHub</a></p>
+    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article>
     <h3>BLOCK</h3>

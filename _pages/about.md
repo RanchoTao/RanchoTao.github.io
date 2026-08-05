@@ -3,6 +3,8 @@ permalink: /
 title: "Shengye Tao"
 author_profile: true
 lang: en
+translation_key: home
+nav_key: home
 redirect_from: 
   - /about/
   - /about.html
@@ -10,7 +12,7 @@ redirect_from:
 
 <section class="home-hero">
   <p class="home-kicker">Mathematics & AI · Learning theory · Systems research</p>
-  <h1>Shengye Tao</h1>
+  <h1 data-scroll-title>Shengye Tao</h1>
   <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
   <p>
     I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
@@ -20,7 +22,7 @@ redirect_from:
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
     <a class="btn" href="{{ '/CV.pdf' | relative_url }}">CV</a>
-    <a class="btn" href="{{ '/blog/' | relative_url }}">Posts</a>
+    <a class="btn" href="{{ '/notes/' | relative_url }}">Notes</a>
   </p>
 </section>
 
@@ -40,7 +42,7 @@ redirect_from:
     <p class="work-status">Work in progress</p>
     <h3>Visual Deadline</h3>
     <p>A cognitive scheduling system for visualizing task pressure, deadlines, attention load, and long-term goals.</p>
-    <p><a href="https://github.com/RanchoTao/VD">GitHub</a></p>
+    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article class="work-card">
     <p class="work-status">Draft</p>
@@ -76,4 +78,4 @@ redirect_from:
 
 ## Academic Profile
 
-I am transitioning from a student of existing ideas to a researcher-builder who turns abstract questions into reproducible systems, notes, prototypes, and papers. See <a href="{{ '/academic/' | relative_url }}">Academic</a> for education, research interests, notes, and CV.
+I am transitioning from a student of existing ideas to a researcher-builder who turns abstract questions into reproducible systems, notes, prototypes, and papers. See <a href="{{ '/research/' | relative_url }}">Research</a> for education, research interests, notes, and CV.

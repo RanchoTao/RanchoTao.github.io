@@ -1,0 +1,25 @@
+{% assign switch_lang = 'zh' %}
+{% assign switch_url = '/zh/' %}
+{% if current_lang == 'zh' %}
+  {% assign switch_lang = 'en' %}
+  {% assign switch_url = '/' %}
+{% endif %}
+
+{% if page.translation_key %}
+  {% assign translations = site.pages | where: 'translation_key', page.translation_key %}
+  {% assign translated_page = translations | where: 'lang', switch_lang | first %}
+  {% if translated_page %}
+    {% assign switch_url = translated_page.url %}
+  {% endif %}
+{% elsif page.collection == 'posts' %}
+  {% if switch_lang == 'zh' %}
+    {% assign switch_url = '/zh/notes/' %}
+  {% else %}
+    {% assign switch_url = '/notes/' %}
+  {% endif %}
+{% endif %}
+
+<a class="masthead__tool masthead__language" href="{{ switch_url | relative_url }}" hreflang="{% if switch_lang == 'zh' %}zh-CN{% else %}en{% endif %}" aria-label="{{ labels.switch_language }}">
+  <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.5 4.1 5.5 4.1 9S14.7 18.5 12 21M12 3C9.3 5.5 7.9 8.5 7.9 12S9.3 18.5 12 21"></path></svg>
+  <span>{{ labels.language_label }}</span>
+</a>

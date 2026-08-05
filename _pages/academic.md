@@ -1,15 +1,19 @@
 ---
 layout: archive
-title: "Academic"
-permalink: /academic/
+title: "Research"
+permalink: /research/
 author_profile: true
+lang: en
+translation_key: research
+nav_key: research
 redirect_from:
+  - /academic/
   - /publications/
   - /awards/
   - /cv/
 ---
 
-# Academic
+<h1 data-scroll-title>Research</h1>
 
 ## Education
 
