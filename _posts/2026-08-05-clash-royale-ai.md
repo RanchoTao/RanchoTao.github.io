@@ -4,7 +4,7 @@ date: 2026-08-05
 permalink: /posts/2026/08/clash-royale-ai/
 lang: zh
 header:
-  teaser: /images/posts/blog20260725.png
+  teaser: /images/posts/blog20260805.png
 tags:
   - 研究
   - 人工智能
