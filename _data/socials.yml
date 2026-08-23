@@ -17,16 +17,16 @@ en:
     url: "https://www.youtube.com/@RanchoTao"
     icon: "fab fa-fw fa-youtube"
   - label: "Douyin"
-    url:
+    url: "https://www.douyin.com/user/MS4wLjABAAAA_SeH1XEnUXx9-9omoZ-5v7U02_7hrklvHMeoQR9HZNM"
     icon: "fas fa-fw fa-video"
   - label: "Xiaohongshu"
-    url:
+    url: "https://www.xiaohongshu.com/user/profile/68616b23000000001e03ffa4"
     icon: "fas fa-fw fa-book-open"
   - label: "WeChat Official Account"
-    url:
+    url: "https://mp.weixin.qq.com/s/r_35yn620Ur32Edioct1yg"
     icon: "fab fa-fw fa-weixin"
   - label: "Bilibili"
-    url:
+    url: "https://space.bilibili.com/275015329"
     icon: "fas fa-fw fa-play-circle"
 zh:
   - label: "邮箱"
@@ -45,14 +45,14 @@ zh:
     url: "https://www.youtube.com/@RanchoTao"
     icon: "fab fa-fw fa-youtube"
   - label: "抖音"
-    url:
+    url: "https://www.douyin.com/user/MS4wLjABAAAA_SeH1XEnUXx9-9omoZ-5v7U02_7hrklvHMeoQR9HZNM"
     icon: "fas fa-fw fa-video"
   - label: "小红书"
-    url:
+    url: "https://www.xiaohongshu.com/user/profile/68616b23000000001e03ffa4"
     icon: "fas fa-fw fa-book-open"
   - label: "公众号"
-    url:
+    url: "https://mp.weixin.qq.com/s/r_35yn620Ur32Edioct1yg"
     icon: "fab fa-fw fa-weixin"
   - label: "B站"
-    url:
+    url: "https://space.bilibili.com/275015329"
     icon: "fas fa-fw fa-play-circle"
