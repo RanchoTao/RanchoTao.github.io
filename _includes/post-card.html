@@ -12,6 +12,8 @@
       src="{% if card_image contains '://' %}{{ card_image }}{% else %}{{ card_image | relative_url }}{% endif %}"
       alt="{% if card_lang == 'zh' %}《{{ card_title | escape }}》的封面图{% else %}Cover image for {{ card_title | escape }}{% endif %}"
       loading="lazy"
+      decoding="async"
+      onload="this.classList.add('is-loaded')"
       width="1600"
       height="900"
       itemprop="image">

@@ -4,7 +4,7 @@ date: 2026-07-25
 permalink: /posts/2026/07/research-log-001/
 lang: zh
 header:
-  teaser: /images/posts/blog20260725.png
+  teaser: /images/posts/blog20260725.webp
 tags:
   - 研究
   - 人工智能
