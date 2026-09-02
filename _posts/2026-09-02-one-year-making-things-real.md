@@ -1,5 +1,5 @@
 ---
-title: "研究日志 002：这一年，我开始把想法变成东西"
+title: "东风七"
 date: 2026-09-02
 permalink: /posts/2026/09/one-year-making-things-real/
 lang: zh

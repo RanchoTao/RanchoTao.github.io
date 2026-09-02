@@ -14,24 +14,26 @@
   height: 100%;
   flex-direction: column;
   overflow: hidden;
-  background: $body-color;
-  border: 1px solid $border-color;
+  color: var(--text-primary);
+  background: var(--panel-bg);
+  border: 1px solid var(--border);
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(#000, 0.045);
+  box-shadow: 0 2px 10px rgba(#000, 0.14);
   transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
 
   &:hover,
   &:focus-within {
     transform: translateY(-2px);
-    border-color: mix($link-color, $border-color, 35%);
-    box-shadow: 0 8px 22px rgba(#000, 0.09);
+    background: var(--panel-bg-hover);
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow);
   }
 }
 
 .post-card__media {
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: $lighter-gray;
+  background: var(--surface-hover);
 
   img {
     display: block;
@@ -60,7 +62,7 @@
 
 .post-card__categories {
   margin: 0 0 0.45rem;
-  color: $link-color;
+  color: var(--accent);
   font-family: $sans-serif;
   font-size: $type-size-7;
   font-weight: 600;
@@ -79,8 +81,10 @@
   -webkit-line-clamp: 3;
 
   a {
-    color: $text-color;
+    color: var(--text-primary);
     text-decoration: none;
+
+    &:visited { color: var(--text-primary); }
 
     &::after {
       position: absolute;
@@ -89,10 +93,10 @@
       content: "";
     }
 
-    &:hover { color: $link-color-hover; }
+    &:hover { color: var(--accent-hover); }
 
     &:focus-visible {
-      outline: 3px solid $link-color;
+      outline: 3px solid var(--accent);
       outline-offset: 4px;
     }
   }
@@ -102,7 +106,7 @@
   display: -webkit-box;
   margin: 0.7rem 0 1.1rem;
   overflow: hidden;
-  color: $muted-text-color;
+  color: var(--text-muted);
   font-size: $type-size-6;
   line-height: 1.65;
   -webkit-box-orient: vertical;
@@ -114,7 +118,7 @@
   gap: 0.45rem;
   align-items: center;
   margin-top: auto;
-  color: $muted-text-color;
+  color: var(--text-muted);
   font-family: $sans-serif;
   font-size: $type-size-7;
 }
@@ -122,7 +126,7 @@
 .notes-section {
   margin-top: 2.75rem;
   padding-top: 0.25rem;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border);
 }
 
 .notes-section__header {
