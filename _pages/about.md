@@ -11,50 +11,72 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">Mathematics & AI · Learning theory · Systems research</p>
   <h1 data-scroll-title>Shengye Tao</h1>
-  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI at BIMSA</p>
+  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI, BIMSA</p>
   <p>
-    I am interested in learning theory, sequential decision-making, quantitative systems, digital life,
-    and world models. I build small reproducible systems and research prototypes to turn abstract
-    questions into testable structures.
+    I work on learning theory, quantitative trading, cognitive augmentation, and AI agents / harnesses.
+    I aim to turn theoretical questions, experimental workflows, and real-world tasks into reproducible,
+    evaluable, and continuously improvable research and engineering systems.
   </p>
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
-    <a class="btn" href="{{ '/CV.pdf' | relative_url }}">CV</a>
     <a class="btn" href="{{ '/notes/' | relative_url }}">Notes</a>
+    <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
   </p>
 </section>
 
-## Research Interests
+## Current Roles
+
+<div class="work-grid">
+  <article class="work-card">
+    <p class="work-status">Sep 2026 – Present</p>
+    <h3>Research Assistant Intern</h3>
+    <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
+    <p>Research on stochastic processes, machine learning, and data-driven modeling.</p>
+  </article>
+  <article class="work-card">
+    <p class="work-status">Sep 2026 – Present</p>
+    <h3>Youth Assistant</h3>
+    <p>Renmin University of China–Westlake University Joint Institute for Future Humanity</p>
+    <p>Supporting research, projects, and youth collaboration.</p>
+  </article>
+  <article class="work-card">
+    <p class="work-status">Undergraduate</p>
+    <h3>Mathematics &amp; AI</h3>
+    <p>BIMSA Mathematics &amp; AI training program</p>
+    <p>Ongoing mathematical, AI, and research-oriented training.</p>
+  </article>
+</div>
+
+## Research & Engineering Interests
 
 <div class="interest-grid">
-  <div>Learning Theory &amp; Sequential Decision-Making</div>
-  <div>Digital Life &amp; Minimal Formal Systems</div>
-  <div>World Models &amp; Cognitive Transformation</div>
-  <div>Quantitative Systems &amp; Market Structure</div>
+  <div>Learning Theory &amp; Model Behavior</div>
+  <div>Quantitative Trading &amp; Sequential Decision-Making</div>
+  <div>Cognitive Augmentation &amp; Human–AI Collaboration</div>
+  <div>AI Agents / Research Harnesses</div>
 </div>
 
 ## Selected Work
 
 <div class="work-grid">
   <article class="work-card">
-    <p class="work-status">Product</p>
+    <p class="work-status">Cognitive augmentation</p>
     <h3>Visual Deadline</h3>
-    <p>A cognitive scheduling system for visualizing task pressure, deadlines, attention load, and long-term goals.</p>
+    <p>A visual system for long-horizon planning, task pressure, deadlines, and attention management.</p>
     <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">Open knowledge base</p>
-    <h3>BIMSA MathAI</h3>
-    <p>An unofficial open knowledge base and course archive for learners in the BIMSA Mathematics and AI program.</p>
-    <p><a href="https://ranchotao.com/BIMSA-MathAI/">Visit website</a></p>
+    <p class="work-status">Research harness</p>
+    <h3>RanchoAutoResearch</h3>
+    <p>Experiments in research automation across literature, experiments, code, auditing, and writing.</p>
+    <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">Knowledge atlas</p>
-    <h3>Math · CS · AI Atlas</h3>
-    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
-    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
+    <p class="work-status">Quant research</p>
+    <h3>MarketManifold</h3>
+    <p>A research project exploring market structure through correlations, distances, dimensionality reduction, and clustering.</p>
+    <p><a href="https://github.com/RanchoTao/MarketManifold">GitHub</a></p>
   </article>
 </div>
 
@@ -75,26 +97,26 @@ redirect_from:
   {% endif %}
 </section>
 
-## Recent Activities
+## Experience
 
 <div class="activity-list">
   <article class="activity-item">
-    <p class="activity-meta">2025.11 – Now · Undergraduate Student</p>
-    <h3>BIMSA Math &amp; AI Program</h3>
-    <p>Joined the Mathematics &amp; AI undergraduate program at BIMSA, focusing on mathematical foundations, artificial intelligence, and research-oriented training.</p>
+    <p class="activity-meta">Sep 2026 · Participant</p>
+    <h3>HiYouth Hackathon</h3>
+    <p>Worked in a short-cycle AI product-development setting and continued iterating on the resulting prototype.</p>
   </article>
   <article class="activity-item">
-    <p class="activity-meta">2026.06 · Participant</p>
+    <p class="activity-meta">Jul 2026 · Participant</p>
+    <h3>Peking University Machine Learning Workshop</h3>
+    <p>Participated in academic talks and discussions on machine learning, research practice, and future directions.</p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">Jun 2026 · Participant</p>
     <h3>Tsinghua Qiuzhen / YMSC AI Summer School</h3>
     <p>Attended lectures and discussions on generative models, diffusion models, and mathematical perspectives on modern AI.</p>
-  </article>
-  <article class="activity-item">
-    <p class="activity-meta">2026.07 · Participant</p>
-    <h3>Peking University Machine Learning Workshop</h3>
-    <p>Participated in academic talks and discussions on machine learning, research practices, and possible future research directions.</p>
   </article>
 </div>
 
 ## Academic Profile
 
-I am transitioning from a student of existing ideas to a researcher-builder who turns abstract questions into reproducible systems, notes, prototypes, and papers. See <a href="{{ '/research/' | relative_url }}">Research</a> for education, research interests, notes, and CV.
+I am building a long-term workflow that connects theory, experimental validation, and system implementation. See <a href="{{ '/research/' | relative_url }}">Research</a>, <a href="{{ '/projects/' | relative_url }}">Projects</a>, and my current <a href="{{ '/cv/' | relative_url }}">CV</a>.
