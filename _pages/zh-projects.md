@@ -34,9 +34,9 @@ nav_key: projects
     <p><a href="https://github.com/RanchoTao/Oppor-Radar">GitHub</a></p>
   </article>
   <article>
-    <h3>MarketManifold</h3>
-    <p>通过相关性、距离、降维与聚类方法探索市场结构的量化研究项目。</p>
-    <p><a href="https://github.com/RanchoTao/MarketManifold">GitHub</a></p>
+    <h3>Math · CS · AI Atlas</h3>
+    <p>一个覆盖纯数学、计算机科学与人工智能的多尺度知识图谱与学习路线系统。</p>
+    <p><a href="https://ranchotao.com/Math-CS-AI/">访问网站</a></p>
   </article>
   <article>
     <h3>BIMSA MathAI</h3>
