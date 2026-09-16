@@ -73,10 +73,10 @@ redirect_from:
     <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">Quant research</p>
-    <h3>MarketManifold</h3>
-    <p>A research project exploring market structure through correlations, distances, dimensionality reduction, and clustering.</p>
-    <p><a href="https://github.com/RanchoTao/MarketManifold">GitHub</a></p>
+    <p class="work-status">Knowledge atlas</p>
+    <h3>Math · CS · AI Atlas</h3>
+    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
+    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
   </article>
 </div>
 
