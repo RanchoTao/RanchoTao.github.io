@@ -72,10 +72,10 @@ redirect_from:
     <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
   </article>
   <article class="work-card">
-    <p class="work-status">量化研究</p>
-    <h3>MarketManifold</h3>
-    <p>使用相关性、距离、降维与聚类方法探索市场结构的研究型项目。</p>
-    <p><a href="https://github.com/RanchoTao/MarketManifold">GitHub</a></p>
+    <p class="work-status">知识图谱</p>
+    <h3>Math · CS · AI Atlas</h3>
+    <p>一个覆盖纯数学、计算机科学与人工智能的多尺度知识图谱与学习路线系统。</p>
+    <p><a href="https://ranchotao.com/Math-CS-AI/">访问网站</a></p>
   </article>
 </div>
 
