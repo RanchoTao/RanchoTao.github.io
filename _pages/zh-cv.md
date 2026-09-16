@@ -43,7 +43,7 @@ nav_key: cv
 
 **Oppor-Radar** — 多源信息抓取与 LLM 汇总系统，用于持续发现学术与产业机会。[GitHub](https://github.com/RanchoTao/Oppor-Radar)
 
-**MarketManifold** — 使用相关性、距离、降维与聚类方法探索市场结构的量化研究项目。[GitHub](https://github.com/RanchoTao/MarketManifold)
+**Math · CS · AI Atlas** — 覆盖纯数学、计算机科学与人工智能的多尺度知识图谱与学习路线系统。[访问网站](https://ranchotao.com/Math-CS-AI/)
 
 **Wayline** — 源于 HiYouth Hackathon 的短周期 AI 产品原型。[GitHub](https://github.com/RanchoTao/Wayline)
 
