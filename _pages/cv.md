@@ -43,7 +43,7 @@ Studying random time changes, subordination, non-Gaussian heavy-tailed noise, an
 
 **Oppor-Radar** — A multi-source information pipeline with LLM summarization for continuously discovering academic and industry opportunities. [GitHub](https://github.com/RanchoTao/Oppor-Radar)
 
-**MarketManifold** — A quantitative research project for exploring market structure with correlations, distances, dimensionality reduction, and clustering. [GitHub](https://github.com/RanchoTao/MarketManifold)
+**Math · CS · AI Atlas** — A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence. [Visit website](https://ranchotao.com/Math-CS-AI/)
 
 **Wayline** — A short-cycle AI product prototype originating from the HiYouth Hackathon. [GitHub](https://github.com/RanchoTao/Wayline)
 
