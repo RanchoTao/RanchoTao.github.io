@@ -34,9 +34,9 @@ I use projects as an experimental layer between research and engineering: ideas 
     <p><a href="https://github.com/RanchoTao/Oppor-Radar">GitHub</a></p>
   </article>
   <article>
-    <h3>MarketManifold</h3>
-    <p>A quantitative research project exploring market structure through correlations, distances, dimensionality reduction, and clustering.</p>
-    <p><a href="https://github.com/RanchoTao/MarketManifold">GitHub</a></p>
+    <h3>Math · CS · AI Atlas</h3>
+    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
+    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
   </article>
   <article>
     <h3>BIMSA MathAI</h3>
