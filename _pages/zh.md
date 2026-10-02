@@ -12,7 +12,11 @@ redirect_from:
 
 <section class="home-hero">
   <h1 data-scroll-title>陶圣叶</h1>
-  <p class="home-subtitle">北京雁栖湖应用数学研究院<br>数学与人工智能 本科生</p>
+  <p class="home-subtitle">数学与人工智能方向本科生，BIMSA</p>
+  <p>
+    我关注学习理论、量化交易、认知强化与 AI Agent / Harness。
+    我希望把理论问题、实验流程与实际工作组织成可复现、可评估、可持续迭代的研究与工程系统。
+  </p>
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
     <a class="btn" href="{{ '/zh/notes/' | relative_url }}">文章</a>

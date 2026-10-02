@@ -12,7 +12,12 @@ redirect_from:
 
 <section class="home-hero">
   <h1 data-scroll-title>Shengye Tao</h1>
-  <p class="home-subtitle">Beijing Institute of Mathematical Sciences and Applications<br>Undergraduate in Mathematics &amp; AI</p>
+  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI, BIMSA</p>
+  <p>
+    I work on learning theory, quantitative trading, cognitive augmentation, and AI agents / harnesses.
+    I aim to turn theoretical questions, experimental workflows, and real-world tasks into reproducible,
+    evaluable, and continuously improvable research and engineering systems.
+  </p>
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
     <a class="btn" href="{{ '/notes/' | relative_url }}">Notes</a>

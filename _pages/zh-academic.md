@@ -12,6 +12,14 @@ redirect_from:
 
 <h1 data-scroll-title>研究</h1>
 
+## 论文
+
+### Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining
+
+Shengye Tao, Yinzhu Cheng, Haihua Xie · 2026 · arXiv 预印本
+
+[arXiv:2610.01165](https://arxiv.org/abs/2610.01165) · [PDF](https://arxiv.org/pdf/2610.01165)
+
 ## 当前方向
 
 我目前主要关注四类问题：
