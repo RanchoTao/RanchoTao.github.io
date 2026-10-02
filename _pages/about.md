@@ -12,12 +12,7 @@ redirect_from:
 
 <section class="home-hero">
   <h1 data-scroll-title>Shengye Tao</h1>
-  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI, BIMSA</p>
-  <p>
-    I work on learning theory, quantitative trading, cognitive augmentation, and AI agents / harnesses.
-    I aim to turn theoretical questions, experimental workflows, and real-world tasks into reproducible,
-    evaluable, and continuously improvable research and engineering systems.
-  </p>
+  <p class="home-subtitle">Beijing Institute of Mathematical Sciences and Applications<br>Undergraduate in Mathematics &amp; AI</p>
   <p class="home-actions">
     <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
     <a class="btn" href="{{ '/notes/' | relative_url }}">Notes</a>
@@ -30,53 +25,39 @@ redirect_from:
 <div class="work-grid">
   <article class="work-card">
     <p class="work-status">Sep 2026 – Present</p>
-    <h3>Research Assistant Intern</h3>
+    <h3>Research Assistant</h3>
     <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
-    <p>Research on stochastic processes, machine learning, and data-driven modeling.</p>
   </article>
   <article class="work-card">
     <p class="work-status">Sep 2026 – Present</p>
-    <h3>Youth Assistant</h3>
+    <h3>Assistant</h3>
     <p>Renmin University of China–Westlake University Joint Institute for Future Humanity</p>
-    <p>Supporting research, projects, and youth collaboration.</p>
   </article>
   <article class="work-card">
-    <p class="work-status">Undergraduate</p>
-    <h3>Mathematics &amp; AI</h3>
-    <p>BIMSA Mathematics &amp; AI training program</p>
-    <p>Ongoing mathematical, AI, and research-oriented training.</p>
+    <p class="work-status">Oct 2025 – Present</p>
+    <h3>Undergraduate in Mathematics &amp; AI</h3>
+    <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
   </article>
 </div>
 
-## Research & Engineering Interests
-
-<div class="interest-grid">
-  <div>Learning Theory &amp; Model Behavior</div>
-  <div>Quantitative Trading &amp; Sequential Decision-Making</div>
-  <div>Cognitive Augmentation &amp; Human–AI Collaboration</div>
-  <div>AI Agents / Research Harnesses</div>
-</div>
-
-## Selected Work
+## Research & Engineering
 
 <div class="work-grid">
-  <article class="work-card">
-    <p class="work-status">Cognitive augmentation</p>
-    <h3>Visual Deadline</h3>
-    <p>A visual system for long-horizon planning, task pressure, deadlines, and attention management.</p>
-    <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
+  <article class="work-card research-card">
+    <h3>Learning Theory</h3>
+    <p class="work-title">Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining</p>
+    <p class="artifact-links"><a href="https://arxiv.org/abs/2610.01165">arXiv:2610.01165</a> · <a href="https://arxiv.org/pdf/2610.01165">PDF</a></p>
   </article>
-  <article class="work-card">
-    <p class="work-status">Research harness</p>
-    <h3>RanchoAutoResearch</h3>
-    <p>Experiments in research automation across literature, experiments, code, auditing, and writing.</p>
-    <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
+  <article class="work-card research-card">
+    <h3>Quantitative Trading</h3>
+    <p class="work-title">Ripple Quant</p>
+    <p><a href="https://github.com/RanchoTao/Ripple-Quant">GitHub</a></p>
   </article>
-  <article class="work-card">
-    <p class="work-status">Knowledge atlas</p>
-    <h3>Math · CS · AI Atlas</h3>
-    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
-    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
+  <article class="work-card research-card">
+    <h3>Cognitive Transformation</h3>
+    <p class="work-title">Visual Deadline</p>
+    <p>An external cognitive system for long-term goals, deadlines, and attention management.</p>
+    <p class="artifact-links"><a href="https://visualdeadline.com">Website</a> · <a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
 </div>
 
@@ -101,6 +82,10 @@ redirect_from:
 
 <div class="activity-list">
   <article class="activity-item">
+    <p class="activity-meta">Oct 2026 · Academic Visit</p>
+    <h3>National University of Singapore</h3>
+  </article>
+  <article class="activity-item">
     <p class="activity-meta">Sep 2026 · Participant</p>
     <h3>HiYouth Hackathon</h3>
     <p>Worked in a short-cycle AI product-development setting and continued iterating on the resulting prototype.</p>
@@ -116,7 +101,3 @@ redirect_from:
     <p>Attended lectures and discussions on generative models, diffusion models, and mathematical perspectives on modern AI.</p>
   </article>
 </div>
-
-## Academic Profile
-
-I am building a long-term workflow that connects theory, experimental validation, and system implementation. See <a href="{{ '/research/' | relative_url }}">Research</a>, <a href="{{ '/projects/' | relative_url }}">Projects</a>, and my current <a href="{{ '/cv/' | relative_url }}">CV</a>.
