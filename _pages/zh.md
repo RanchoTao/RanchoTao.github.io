@@ -70,7 +70,7 @@ redirect_from:
 <div class="activity-list">
   <article class="activity-item">
     <p class="activity-meta">2026.10 · 学术访问</p>
-    <h3>新加坡国立大学</h3>
+    <h3>南洋理工大学</h3>
   </article>
   <article class="activity-item">
     <p class="activity-meta">2026.09 · 参与者</p>
