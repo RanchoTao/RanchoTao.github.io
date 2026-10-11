@@ -88,7 +88,7 @@ redirect_from:
 <div class="activity-list">
   <article class="activity-item">
     <p class="activity-meta">Oct 2026 · Academic Visit</p>
-    <h3>National University of Singapore</h3>
+    <h3>Nanyang Technological University</h3>
   </article>
   <article class="activity-item">
     <p class="activity-meta">Sep 2026 · Participant</p>
