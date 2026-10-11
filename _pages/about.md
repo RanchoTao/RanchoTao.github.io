@@ -91,6 +91,11 @@ redirect_from:
     <h3>Nanyang Technological University</h3>
   </article>
   <article class="activity-item">
+    <p class="activity-meta">Oct 2026 · Academic Forum</p>
+    <h3>Nobel Heroes Forum 2026</h3>
+    <p>Nanyang Technological University, Singapore. Discussions covered AI for Science, scientific discovery, and future health. <a href="https://event.ntu.edu.sg/nobel-heroes-forum-2026-ntu-singapore">Event page</a></p>
+  </article>
+  <article class="activity-item">
     <p class="activity-meta">Sep 2026 · Participant</p>
     <h3>HiYouth Hackathon</h3>
     <p>Worked in a short-cycle AI product-development setting and continued iterating on the resulting prototype.</p>
