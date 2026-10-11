@@ -69,10 +69,6 @@ redirect_from:
 
 <div class="activity-list">
   <article class="activity-item">
-    <p class="activity-meta">2026.10 · 学术访问</p>
-    <h3>南洋理工大学</h3>
-  </article>
-  <article class="activity-item">
     <p class="activity-meta">2026.10 · 学术论坛</p>
     <h3>Nobel Heroes Forum 2026</h3>
     <p>南洋理工大学，新加坡。论坛涵盖 AI for Science、科学发现及未来健康等议题。<a href="https://event.ntu.edu.sg/nobel-heroes-forum-2026-ntu-singapore">活动页面</a></p>
