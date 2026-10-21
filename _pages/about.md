@@ -50,6 +50,8 @@ redirect_from:
 <div class="work-grid">
   <article class="work-card research-card">
     <h3>Learning Theory</h3>
+    <p class="work-title">When Parameter Gradient Flows Close in Representation Space</p>
+    <p class="artifact-links"><a href="https://arxiv.org/abs/2610.27474">arXiv:2610.27474</a> · <a href="https://arxiv.org/pdf/2610.27474">PDF</a></p>
     <p class="work-title">Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining</p>
     <p class="artifact-links"><a href="https://arxiv.org/abs/2610.01165">arXiv:2610.01165</a> · <a href="https://arxiv.org/pdf/2610.01165">PDF</a></p>
   </article>

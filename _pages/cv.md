@@ -27,6 +27,11 @@ Research on stochastic processes, machine learning, and data-driven modeling.
 *Sep 2026 – Present*  
 Supporting research, projects, and youth collaboration.
 
+## Preprints
+
+- **When Parameter Gradient Flows Close in Representation Space** · 2026 · arXiv preprint · [arXiv:2610.27474](https://arxiv.org/abs/2610.27474) · [PDF](https://arxiv.org/pdf/2610.27474)
+- **Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining** · 2026 · arXiv preprint · [arXiv:2610.01165](https://arxiv.org/abs/2610.01165) · [PDF](https://arxiv.org/pdf/2610.01165)
+
 ## Research
 
 **Training-Stage Behavior and Interpretability of Language Models · 2026 – Present**  

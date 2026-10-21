@@ -14,6 +14,12 @@ redirect_from:
 
 ## 论文
 
+### When Parameter Gradient Flows Close in Representation Space
+
+2026 · arXiv 预印本
+
+[arXiv:2610.27474](https://arxiv.org/abs/2610.27474) · [PDF](https://arxiv.org/pdf/2610.27474)
+
 ### Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining
 
 Shengye Tao, Yinzhu Cheng, Haihua Xie · 2026 · arXiv 预印本

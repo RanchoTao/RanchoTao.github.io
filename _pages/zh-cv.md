@@ -27,6 +27,11 @@ nav_key: cv
 *2026.09 – 至今*  
 参与研究、项目与青年协作相关工作。
 
+## 预印本
+
+- **When Parameter Gradient Flows Close in Representation Space** · 2026 · arXiv 预印本 · [arXiv:2610.27474](https://arxiv.org/abs/2610.27474) · [PDF](https://arxiv.org/pdf/2610.27474)
+- **Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining** · 2026 · arXiv 预印本 · [arXiv:2610.01165](https://arxiv.org/abs/2610.01165) · [PDF](https://arxiv.org/pdf/2610.01165)
+
 ## 研究
 
 **大模型训练阶段行为与可解释性 · 2026 – 至今**  
