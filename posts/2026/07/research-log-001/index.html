@@ -1,0 +1,582 @@
+
+
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+<script>
+  (function () {
+    var theme;
+    try { theme = localStorage.getItem('site-theme'); } catch (error) { theme = null; }
+    if (theme !== 'light' && theme !== 'dark') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+  }());
+</script>
+
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>你好，世界！ - Shengye Tao</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="Shengye Tao">
+<meta property="og:title" content="你好，世界！">
+
+
+  <link rel="canonical" href="https://ranchotao.com/posts/2026/07/research-log-001/">
+  <meta property="og:url" content="https://ranchotao.com/posts/2026/07/research-log-001/">
+
+
+
+
+
+  <meta property="og:description" content="关于我为什么开始记录，以及目前正在推进的研究与项目。">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-07-25T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Shengye Tao / 陶圣叶",
+      "url" : "https://ranchotao.com",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<!-- <link href="https://ranchotao.com/feed.xml" type="application/atom+xml" rel="alternate" title="Shengye Tao Feed"> -->
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://ranchotao.com/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="google-site-verification" content="r0uvRO3-N9N-WTgf4rYHKd0REciZLPQKRBdN0M0KpAk" />
+
+    
+
+<!-- start custom head snippets -->
+
+<link rel="icon" href="https://ranchotao.com/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="https://ranchotao.com/images/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="https://ranchotao.com/images/apple-touch-icon.png">
+<link rel="manifest" href="https://ranchotao.com/images/manifest.json">
+<meta name="theme-color" content="#1b1b1a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#e3e2de" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="https://ranchotao.com/assets/css/academicons.css"/>
+
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+
+
+
+<header id="site-header" class="masthead" data-site-header>
+  <div class="masthead__inner-wrap">
+    <a class="masthead__brand" href="/zh/">Shengye Tao</a>
+
+    <nav id="site-navigation" class="masthead__navigation" aria-label="主导航" data-site-navigation>
+      <ul>
+        
+          <li><a href="/zh/">首页</a></li>
+        
+          <li><a href="/zh/research/">研究</a></li>
+        
+          <li><a href="/zh/projects/">项目</a></li>
+        
+          <li><a href="/zh/notes/" class="is-active" aria-current="page">笔记</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="masthead__tools">
+      
+
+
+
+
+
+<a class="masthead__tool masthead__language" href="/notes/" hreflang="en" aria-label="Switch to English">
+  <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.5 4.1 5.5 4.1 9S14.7 18.5 12 21M12 3C9.3 5.5 7.9 8.5 7.9 12S9.3 18.5 12 21"></path></svg>
+  <span>EN</span>
+</a>
+
+      <button class="masthead__tool theme-toggle" type="button" data-theme-toggle aria-label="切换到深色主题" data-label-dark="切换到深色主题" data-label-light="切换到浅色主题">
+        <svg class="theme-toggle__moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.2A8.5 8.5 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z"></path></svg>
+        <svg class="theme-toggle__sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+      </button>
+      <button class="masthead__tool masthead__menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle data-label-open="打开导航菜单" data-label-close="关闭导航菜单">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+      <img src="https://ranchotao.com/images/avatar1_2607.jpg" class="author__avatar" alt="陶圣叶">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">陶圣叶</h3>
+    <p class="author__bio">北京雁栖湖应用数学研究院 数学与人工智能 本科生</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse"></button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> 北京</li>
+      
+      
+      
+      
+      
+        
+          <li><a href="mailto:RanchoTao@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> 邮箱</a></li>
+        
+      
+        
+          <li><a href="https://github.com/RanchoTao"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.zhihu.com/people/36-45-36-89-46"><i class="fas fa-fw fa-link" aria-hidden="true"></i> 知乎</a></li>
+        
+      
+        
+          <li><a href="https://x.com/RanchoTao"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> X</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/@RanchoTao"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://www.douyin.com/user/MS4wLjABAAAA_SeH1XEnUXx9-9omoZ-5v7U02_7hrklvHMeoQR9HZNM"><i class="fas fa-fw fa-video" aria-hidden="true"></i> 抖音</a></li>
+        
+      
+        
+          <li><a href="https://www.xiaohongshu.com/user/profile/68616b23000000001e03ffa4"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> 小红书</a></li>
+        
+      
+        
+          <li><a href="https://mp.weixin.qq.com/s/r_35yn620Ur32Edioct1yg"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> 公众号</a></li>
+        
+      
+        
+          <li><a href="https://space.bilibili.com/275015329"><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i> B站</a></li>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="你好，世界！">
+    <meta itemprop="description" content="关于我为什么开始记录，以及目前正在推进的研究与项目。">
+    <meta itemprop="datePublished" content="2026-07-25T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline" data-scroll-title>你好，世界！
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+    
+      少于 1 分钟阅读
+    
+  
+
+</p>
+          
+          
+
+          
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> </strong> <time datetime="2026-07-25T00:00:00+00:00">2026年07月25日</time></p>
+          
+
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>这是这个网站的第一篇博客。</p>
+
+<p>我一直在做笔记、整理计划，也积累了不少研究想法和项目草稿，但这些内容大多停留在本地文件、聊天记录和零散文档中。它们可以帮助我思考，却很难形成稳定、可追踪的长期积累。</p>
+
+<p>因此，我决定从这里开始公开记录。</p>
+
+<h2 id="我目前在做什么">我目前在做什么</h2>
+
+<p>我现在主要学习数学与人工智能，关注随机过程、机器学习、智能系统和科研工程化。目前正在推进的工作主要包括：</p>
+
+<ol>
+  <li>多尺度随机微分方程与非线性滤波；</li>
+  <li>数字生命最小模型及其形式化定义；</li>
+  <li>Visualized Deadline，一个用于任务管理与执行监督的个人系统；</li>
+  <li>对机器学习经典论文和基础方法的重新阅读与复现。</li>
+</ol>
+
+<p>这些方向并不都已经成熟。有些是正式的科研任务，有些只是刚刚形成的猜想，还有一些可能最终会被放弃。</p>
+
+<p>我希望记录的不只是最后的结果，也包括问题如何产生、假设如何被修正，以及一项工作为什么失败。</p>
+
+<h2 id="这个博客会记录什么">这个博客会记录什么</h2>
+
+<p>这里主要会出现几类内容：</p>
+
+<ul>
+  <li>研究日志：当前问题、实验进展和阶段性结论；</li>
+  <li>论文笔记：对重要论文的理解、复现与批评；</li>
+  <li>项目日志：从需求、设计到工程实现的完整过程；</li>
+  <li>数学与人工智能札记；</li>
+  <li>偶尔出现的投资、训练和日常思考。</li>
+</ul>
+
+<p>文章主要使用中文。我会尽量让每篇内容围绕一个明确的问题展开，而不是简单堆积资料。</p>
+
+<h2 id="为什么公开记录">为什么公开记录</h2>
+
+<p>公开写作会迫使我把模糊的直觉变成可以检查的文字。</p>
+
+<p>当一个想法无法被清楚表达时，它往往也没有被真正想清楚。持续记录还能够留下研究过程中的决策依据，减少重复思考，并让未来的我看到一个项目究竟是怎样发展起来的。</p>
+
+<p>我不打算等待内容足够成熟才开始发布。这里首先是一份工作记录，其次才是一种展示。</p>
+
+<h2 id="接下来">接下来</h2>
+
+<p>接下来，我会先完成几件具体的事情：</p>
+
+<ul>
+  <li>整理当前研究与项目的状态；</li>
+  <li>阅读并记录一批机器学习经典论文；</li>
+  <li>推进多尺度神经 SDE 的复现工作；</li>
+  <li>为数字生命最小模型建立第一版形式框架；</li>
+  <li>持续完善 Visualized Deadline。</li>
+</ul>
+
+<p>这是第一篇，也是一次最简单的开始。</p>
+
+<p>先发布，再迭代。</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+
+
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i>  </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="https://ranchotao.com/tags/#人工智能" class="page__taxonomy-item" rel="tag">人工智能</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://ranchotao.com/tags/#研究" class="page__taxonomy-item" rel="tag">研究</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://ranchotao.com/tags/#系统" class="page__taxonomy-item" rel="tag">系统</a>
+    
+    </span>
+  </p>
+
+
+
+
+
+      </footer>
+
+      
+
+
+
+<section class="page__share">
+  <h4 class="page__share-title"></h4>
+
+  <a href="https://twitter.com/intent/tweet?text=https://ranchotao.com/posts/2026/07/research-log-001/" class="btn btn--twitter" title=" X"><i class="fab fa-twitter" aria-hidden="true"></i><span> X</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://ranchotao.com/posts/2026/07/research-log-001/" class="btn btn--facebook" title=" Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://ranchotao.com/posts/2026/07/research-log-001/" class="btn btn--linkedin" title=" LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+
+
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled"></a>
+    
+    
+      <a href="https://ranchotao.com/posts/2026/10/from-idea-to-evidence/" class="pagination--pager" title="从想法到证据：我如何记录一个研究问题
+"></a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+    <div class="page__related">
+      <h4 class="page__related-title">你可能还会喜欢</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://ranchotao.com/posts/2026/10/from-idea-to-evidence/" rel="permalink">从想法到证据：我如何记录一个研究问题
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+    
+      少于 1 分钟阅读
+    
+  
+
+</p>
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-10-17T00:00:00+00:00">October 17, 2026</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>研究不只是提出想法，更重要的是明确假设、设计验证，并留下可以复查的证据。</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        
+
+<!-- <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/RanchoTao"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://ranchotao.com/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div> -->
+
+<div class="page__footer-meta">
+  <div class="page__footer-copyright">&copy; 2026 Shengye Tao / 陶圣叶. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+  <div id="busuanzi_container_site_pv" class="page__footer-visits" aria-label="Site page views" title="Site page views">
+    <i class="fas fa-eye" aria-hidden="true"></i>
+    <span id="busuanzi_value_site_pv">--</span>
+  </div>
+</div>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+      </footer>
+    </div>
+
+    <script src="https://ranchotao.com/assets/js/main.min.js"></script>
+<script src="/assets/js/site-ui.js" defer></script>
+<script src="/assets/js/floating-header.js" defer></script>
+
+
+
+
+
+  </body>
+</html>
+

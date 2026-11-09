@@ -1,0 +1,479 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+<script>
+  (function () {
+    var theme;
+    try { theme = localStorage.getItem('site-theme'); } catch (error) { theme = null; }
+    if (theme !== 'light' && theme !== 'dark') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+  }());
+</script>
+
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Shengye Tao - Shengye Tao</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Shengye Tao">
+<meta property="og:title" content="Shengye Tao">
+
+
+  <link rel="canonical" href="https://ranchotao.com/">
+  <meta property="og:url" content="https://ranchotao.com/">
+
+
+
+  
+  
+    <link rel="alternate" hreflang="en" href="https://ranchotao.com/">
+    <link rel="alternate" hreflang="x-default" href="https://ranchotao.com/">
+  
+    <link rel="alternate" hreflang="zh-CN" href="https://ranchotao.com/zh/">
+    
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Shengye Tao / 陶圣叶",
+      "url" : "https://ranchotao.com",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<!-- <link href="https://ranchotao.com/feed.xml" type="application/atom+xml" rel="alternate" title="Shengye Tao Feed"> -->
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://ranchotao.com/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="google-site-verification" content="r0uvRO3-N9N-WTgf4rYHKd0REciZLPQKRBdN0M0KpAk" />
+
+    
+
+<!-- start custom head snippets -->
+
+<link rel="icon" href="https://ranchotao.com/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="https://ranchotao.com/images/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="https://ranchotao.com/images/apple-touch-icon.png">
+<link rel="manifest" href="https://ranchotao.com/images/manifest.json">
+<meta name="theme-color" content="#1b1b1a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#e3e2de" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="https://ranchotao.com/assets/css/academicons.css"/>
+
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="is-home">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+
+
+
+<header id="site-header" class="masthead" data-site-header>
+  <div class="masthead__inner-wrap">
+    <a class="masthead__brand" href="/">Shengye Tao</a>
+
+    <nav id="site-navigation" class="masthead__navigation" aria-label="Primary navigation" data-site-navigation>
+      <ul>
+        
+          <li><a href="/" class="is-active" aria-current="page">Home</a></li>
+        
+          <li><a href="/research/">Research</a></li>
+        
+          <li><a href="/projects/">Projects</a></li>
+        
+          <li><a href="/notes/">Notes</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="masthead__tools">
+      
+
+
+
+
+
+<a class="masthead__tool masthead__language" href="/zh/" hreflang="zh-CN" aria-label="切换到中文">
+  <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.5 4.1 5.5 4.1 9S14.7 18.5 12 21M12 3C9.3 5.5 7.9 8.5 7.9 12S9.3 18.5 12 21"></path></svg>
+  <span>中</span>
+</a>
+
+      <button class="masthead__tool theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" data-label-dark="Switch to dark theme" data-label-light="Switch to light theme">
+        <svg class="theme-toggle__moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.2A8.5 8.5 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z"></path></svg>
+        <svg class="theme-toggle__sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+      </button>
+      <button class="masthead__tool masthead__menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle data-label-open="Open navigation menu" data-label-close="Close navigation menu">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+      <img src="https://ranchotao.com/images/avatar1_2607.jpg" class="author__avatar" alt="Shengye Tao">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Shengye Tao</h3>
+    <p class="author__bio">Undergraduate in Mathematics & AI at Beijing Institute of Mathematical Sciences and Applications.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse"></button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Beijing</li>
+      
+      
+      
+      
+      
+        
+          <li><a href="mailto:RanchoTao@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://github.com/RanchoTao"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.zhihu.com/people/36-45-36-89-46"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Zhihu</a></li>
+        
+      
+        
+          <li><a href="https://x.com/RanchoTao"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> X</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/@RanchoTao"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://www.douyin.com/user/MS4wLjABAAAA_SeH1XEnUXx9-9omoZ-5v7U02_7hrklvHMeoQR9HZNM"><i class="fas fa-fw fa-video" aria-hidden="true"></i> Douyin</a></li>
+        
+      
+        
+          <li><a href="https://www.xiaohongshu.com/user/profile/68616b23000000001e03ffa4"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> Xiaohongshu</a></li>
+        
+      
+        
+          <li><a href="https://mp.weixin.qq.com/s/r_35yn620Ur32Edioct1yg"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat Official Account</a></li>
+        
+      
+        
+          <li><a href="https://space.bilibili.com/275015329"><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i> Bilibili</a></li>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shengye Tao">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        <section class="home-hero">
+  <h1 data-scroll-title="">Shengye Tao</h1>
+  <p class="home-subtitle">Undergraduate in Mathematics &amp; AI, BIMSA</p>
+  <p>
+    I work on learning theory, quantitative trading, cognitive augmentation, and AI agents / harnesses.
+    I aim to turn theoretical questions, experimental workflows, and real-world tasks into reproducible,
+    evaluable, and continuously improvable research and engineering systems.
+  </p>
+  <p class="home-actions">
+    <a class="btn btn--primary" href="https://github.com/RanchoTao">GitHub</a>
+    <a class="btn" href="/notes/">Notes</a>
+    <a class="btn" href="/cv/">CV</a>
+  </p>
+</section>
+
+<h2 id="current-roles">Current Roles</h2>
+
+<div class="work-grid">
+  <article class="work-card">
+    <p class="work-status">Sep 2026 – Present</p>
+    <h3>Research Assistant Intern</h3>
+    <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
+  </article>
+  <article class="work-card">
+    <p class="work-status">Sep 2026 – Present</p>
+    <h3>Youth Assistant</h3>
+    <p>Renmin University of China–Westlake University Joint Institute for Future Humanity</p>
+  </article>
+  <article class="work-card">
+    <p class="work-status">Oct 2025 – Present</p>
+    <h3>Undergraduate in Mathematics &amp; AI</h3>
+    <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
+  </article>
+</div>
+
+<h2 id="research--engineering">Research &amp; Engineering</h2>
+
+<div class="work-grid">
+  <article class="work-card research-card">
+    <h3>Learning Theory</h3>
+    <p class="work-title">When Parameter Gradient Flows Close in Representation Space</p>
+    <p class="artifact-links"><a href="https://arxiv.org/abs/2610.27474">arXiv:2610.27474</a> · <a href="https://arxiv.org/pdf/2610.27474">PDF</a></p>
+    <p class="work-title">Persistent Depth Ordering amid Shifting Block-Bypass Responses in Language Model Pretraining</p>
+    <p class="artifact-links"><a href="https://arxiv.org/abs/2610.01165">arXiv:2610.01165</a> · <a href="https://arxiv.org/pdf/2610.01165">PDF</a></p>
+  </article>
+  <article class="work-card research-card">
+    <h3>Quantitative Trading</h3>
+    <p class="work-title">Ripple Quant</p>
+    <p><a href="https://github.com/RanchoTao/Ripple-Quant">GitHub</a></p>
+  </article>
+  <article class="work-card research-card">
+    <h3>Cognitive Augmentation</h3>
+    <p class="work-title">Visual Deadline</p>
+    <p>A cognitive-augmentation system for long-term goals, deadlines, and attention management.</p>
+    <p class="artifact-links"><a href="https://visualdeadline.com">Website</a> · <a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
+  </article>
+</div>
+
+<section class="notes-section" aria-labelledby="recent-notes-title">
+  <div class="notes-section__header">
+    <h2 id="recent-notes-title">Recent Notes</h2>
+    <a class="notes-section__all" href="/notes/">View all notes →</a>
+  </div>
+  
+    <p>New English research notes are on the way.</p>
+  
+</section>
+
+<h2 id="experience">Experience</h2>
+
+<div class="activity-list">
+  <article class="activity-item">
+    <p class="activity-meta">Oct 2026 · Academic Forum</p>
+    <h3>Nobel Heroes Forum 2026</h3>
+    <p>Nanyang Technological University, Singapore. Discussions covered AI for Science, scientific discovery, and future health. <a href="https://event.ntu.edu.sg/nobel-heroes-forum-2026-ntu-singapore">Event page</a></p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">Sep 2026 · Participant</p>
+    <h3>HiYouth Hackathon</h3>
+    <p>Worked in a short-cycle AI product-development setting and continued iterating on the resulting prototype.</p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">Jul 2026 · Participant</p>
+    <h3>Peking University Machine Learning Workshop</h3>
+    <p>Participated in academic talks and discussions on machine learning, research practice, and future directions.</p>
+  </article>
+  <article class="activity-item">
+    <p class="activity-meta">Jun 2026 · Participant</p>
+    <h3>Tsinghua Qiuzhen / YMSC AI Summer School</h3>
+    <p>Attended lectures and discussions on generative models, diffusion models, and mathematical perspectives on modern AI.</p>
+  </article>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+
+
+
+    </div>
+
+    
+  </article>
+
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        
+
+<!-- <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/RanchoTao"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://ranchotao.com/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div> -->
+
+<div class="page__footer-meta">
+  <div class="page__footer-copyright">&copy; 2026 Shengye Tao / 陶圣叶. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+  <div id="busuanzi_container_site_pv" class="page__footer-visits" aria-label="Site page views" title="Site page views">
+    <i class="fas fa-eye" aria-hidden="true"></i>
+    <span id="busuanzi_value_site_pv">--</span>
+  </div>
+</div>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+      </footer>
+    </div>
+
+    <script src="https://ranchotao.com/assets/js/main.min.js"></script>
+<script src="/assets/js/site-ui.js" defer></script>
+<script src="/assets/js/floating-header.js" defer></script>
+
+
+
+
+
+  </body>
+</html>
+
