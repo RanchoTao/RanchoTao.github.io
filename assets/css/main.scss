@@ -34,8 +34,6 @@
 @import "archive";
 @import "post-cards";
 @import "sidebar";
-@import "theme";
-@import "home-background";
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
@@ -43,3 +41,5 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 @import "floating-header";
+@import "fonts";
+@import "theme"; // must stay last: site design system
