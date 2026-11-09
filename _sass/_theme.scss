@@ -200,7 +200,6 @@ div.highlighter-rouge, figure.highlight {
   transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
 }
 .interest-grid > div:hover, .work-card:hover, .activity-item:hover {
-  transform: translateY(-3px);
   background: var(--panel-bg-hover);
   border-color: var(--border-strong);
 }
