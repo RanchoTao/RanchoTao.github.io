@@ -74,7 +74,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # set to "google" with a tracking_id to enable
   google:
     tracking_id          :
 
@@ -87,10 +87,10 @@ author:
   location         : "Beijing"
   employer         : 
   pubmed           : 
-  googlescholar    : #https://scholar.google.com/citations?user=gkG4z3IAAAAJ
+  googlescholar    :
   email            : "RanchoTao@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  dblp             : #https://dblp.org/pid/132/2047-2.html
+  dblp             :
   uri              :
   bitbucket        :
   codepen          :
@@ -107,12 +107,12 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : #yan-dai-751b581a9
+  linkedin         :
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  openreview       : #https://openreview.net/profile?id=~Yan_Dai1
+  openreview       :
   steam            :
   tumblr           :
   twitter          :
