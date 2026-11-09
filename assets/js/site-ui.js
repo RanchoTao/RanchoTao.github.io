@@ -12,7 +12,7 @@
     if (themeButton) {
       themeButton.setAttribute('aria-label', theme === 'dark' ? themeButton.dataset.labelLight : themeButton.dataset.labelDark);
     }
-    var themeColor = theme === 'dark' ? '#181818' : '#f4f4f1';
+    var themeColor = theme === 'dark' ? '#1b1b1a' : '#e3e2de';
     document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
       meta.removeAttribute('media');
       meta.setAttribute('content', themeColor);
