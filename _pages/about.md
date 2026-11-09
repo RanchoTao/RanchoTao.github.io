@@ -30,12 +30,12 @@ redirect_from:
 <div class="work-grid">
   <article class="work-card">
     <p class="work-status">Sep 2026 – Present</p>
-    <h3>Research Assistant</h3>
+    <h3>Research Assistant Intern</h3>
     <p>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
   </article>
   <article class="work-card">
     <p class="work-status">Sep 2026 – Present</p>
-    <h3>Assistant</h3>
+    <h3>Youth Assistant</h3>
     <p>Renmin University of China–Westlake University Joint Institute for Future Humanity</p>
   </article>
   <article class="work-card">
@@ -61,9 +61,9 @@ redirect_from:
     <p><a href="https://github.com/RanchoTao/Ripple-Quant">GitHub</a></p>
   </article>
   <article class="work-card research-card">
-    <h3>Cognitive Transformation</h3>
+    <h3>Cognitive Augmentation</h3>
     <p class="work-title">Visual Deadline</p>
-    <p>An external cognitive system for long-term goals, deadlines, and attention management.</p>
+    <p>A cognitive-augmentation system for long-term goals, deadlines, and attention management.</p>
     <p class="artifact-links"><a href="https://visualdeadline.com">Website</a> · <a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
 </div>

@@ -14,7 +14,7 @@ redirect_from:
   <h1 data-scroll-title>陶圣叶</h1>
   <p class="home-subtitle">数学与人工智能方向本科生，BIMSA</p>
   <p>
-    我关注学习理论、量化交易、认知强化与 AI Agent / Harness。
+    我关注学习理论、量化交易、认知改造与 AI Agent / Harness。
     我希望把理论问题、实验流程与实际工作组织成可复现、可评估、可持续迭代的研究与工程系统。
   </p>
   <p class="home-actions">
@@ -29,12 +29,12 @@ redirect_from:
 <div class="work-grid">
   <article class="work-card">
     <p class="work-status">2026.09 – 至今</p>
-    <h3>科研助理</h3>
+    <h3>科研助理实习</h3>
     <p>北京雁栖湖应用数学研究院（BIMSA）</p>
   </article>
   <article class="work-card">
     <p class="work-status">2026.09 – 至今</p>
-    <h3>助理</h3>
+    <h3>青年助理</h3>
     <p>中国人民大学—西湖大学未来人类联合研究院</p>
   </article>
   <article class="work-card">
@@ -62,7 +62,7 @@ redirect_from:
   <article class="work-card research-card">
     <h3>认知改造</h3>
     <p class="work-title">Visual Deadline</p>
-    <p>面向长期目标、截止日期与注意力管理的认知外置系统。</p>
+    <p>面向长期目标、截止日期与注意力管理的认知改造系统。</p>
     <p class="artifact-links"><a href="https://visualdeadline.com">访问网站</a> · <a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
 </div>

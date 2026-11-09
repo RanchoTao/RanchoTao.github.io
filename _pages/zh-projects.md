@@ -15,7 +15,7 @@ nav_key: projects
 <div class="project-list">
   <article>
     <h3>Visual Deadline</h3>
-    <p>面向长期规划、任务压力、截止日期与注意力管理的可视化认知强化系统。</p>
+    <p>面向长期规划、任务压力、截止日期与注意力管理的可视化认知改造系统。</p>
     <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article>

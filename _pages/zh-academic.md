@@ -32,7 +32,7 @@ Shengye Tao, Yinzhu Cheng, Haihua Xie · 2026 · arXiv 预印本
 
 - 学习理论与模型行为
 - 量化交易与序贯决策
-- 认知强化与人机协作
+- 认知改造与人机协作
 - AI Agent / Research Harness
 
 ## 当前研究
