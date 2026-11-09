@@ -16,7 +16,7 @@ redirect_from:
 
 ### When Parameter Gradient Flows Close in Representation Space
 
-2026 · arXiv 预印本
+Shengye Tao · 2026 · arXiv 预印本
 
 [arXiv:2610.27474](https://arxiv.org/abs/2610.27474) · [PDF](https://arxiv.org/pdf/2610.27474)
 
@@ -32,7 +32,7 @@ Shengye Tao, Yinzhu Cheng, Haihua Xie · 2026 · arXiv 预印本
 
 - 学习理论与模型行为
 - 量化交易与序贯决策
-- 认知强化与人机协作
+- 认知改造与人机协作
 - AI Agent / Research Harness
 
 ## 当前研究

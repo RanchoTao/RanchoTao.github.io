@@ -15,7 +15,7 @@ nav_key: cv
 
 ## 简介
 
-本科阶段研究者与工程实践者，当前关注学习理论、量化交易、认知强化与 AI Agent / Research Harness。希望把开放式研究问题与决策问题转化为可复现的实验、可审计的工作流和能够持续运行的系统。
+本科阶段研究者与工程实践者，当前关注学习理论、量化交易、认知改造与 AI Agent / Research Harness。希望把开放式研究问题与决策问题转化为可复现的实验、可审计的工作流和能够持续运行的系统。
 
 ## 当前身份
 
@@ -42,7 +42,7 @@ nav_key: cv
 
 ## 代表项目
 
-**Visual Deadline** — 面向长期规划、截止日期、任务压力与注意力管理的认知强化系统。[GitHub](https://github.com/RanchoTao/Visual-Deadline)
+**Visual Deadline** — 面向长期规划、截止日期、任务压力与注意力管理的认知改造系统。[GitHub](https://github.com/RanchoTao/Visual-Deadline)
 
 **RanchoAutoResearch** — 覆盖文献、实验、代码、审计与写作环节的 AI Agent / Research Harness 实验。[GitHub](https://github.com/RanchoTao/RanchoAutoResearch)
 

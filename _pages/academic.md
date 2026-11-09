@@ -18,7 +18,7 @@ redirect_from:
 
 ### When Parameter Gradient Flows Close in Representation Space
 
-2026 · arXiv preprint
+Shengye Tao · 2026 · arXiv preprint
 
 [arXiv:2610.27474](https://arxiv.org/abs/2610.27474) · [PDF](https://arxiv.org/pdf/2610.27474)
 
