@@ -12,8 +12,11 @@
     if (themeButton) {
       themeButton.setAttribute('aria-label', theme === 'dark' ? themeButton.dataset.labelLight : themeButton.dataset.labelDark);
     }
-    var themeMeta = document.querySelector('meta[name="theme-color"]');
-    if (themeMeta) themeMeta.setAttribute('content', '#181818');
+    var themeColor = theme === 'dark' ? '#181818' : '#f4f4f1';
+    document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
+      meta.removeAttribute('media');
+      meta.setAttribute('content', themeColor);
+    });
     if (persist) {
       try { localStorage.setItem('site-theme', theme); } catch (error) { /* Storage may be unavailable. */ }
     }
