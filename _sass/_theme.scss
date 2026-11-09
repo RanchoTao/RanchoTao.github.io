@@ -76,7 +76,7 @@ body {
   font-family: var(--sans-body);
   background:
     linear-gradient(var(--body-overlay-start), var(--body-overlay-end)),
-    url("/images/home-background.png") center top / cover fixed no-repeat,
+    url("/images/home-background.webp") center top / cover fixed no-repeat,
     var(--page-bg);
 }
 
