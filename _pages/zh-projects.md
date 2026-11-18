@@ -15,32 +15,22 @@ nav_key: projects
 <div class="project-list">
   <article>
     <h3>Visual Deadline</h3>
-    <p>面向长期规划、任务压力、截止日期与注意力管理的可视化认知改造系统。</p>
+    <p>已上线、可注册付费的个人规划产品。把任务的重要程度、截止日期与剩余工作量合成为可解释的优先级，并从用户的实际选择中学习个人的价值排序。起源于 HiYouth 黑客松。</p>
     <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article>
-    <h3>RanchoAutoResearch</h3>
-    <p>面向研究流程的 AI Agent / Harness 实验，覆盖文献、实验、代码、审计与写作环节。</p>
-    <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
+    <h3>RanchoResearch</h3>
+    <p>带证据门禁的科研自动化软件。在开源项目 AutoResearchClaw 的基础上二次开发，新增证据门禁、主张版本管理与可复现性边界，覆盖文献、假设、实验编排与分析。</p>
+    <p><a href="https://github.com/RanchoTao/RanchoResearch">GitHub</a></p>
   </article>
   <article>
-    <h3>Wayline</h3>
-    <p>源于 HiYouth Hackathon 的短周期产品原型，持续探索 AI 辅助规划与行动工作流。</p>
-    <p><a href="https://github.com/RanchoTao/Wayline">GitHub</a></p>
+    <h3>Ripple-Quant</h3>
+    <p>点时间（point-in-time）量化研究基础设施：由有限因子文法生成候选，使用可交易的前向收益标签，以 IC、HAC 推断、FDR 控制与稳定性检验筛选，配合 walk-forward 基线模型；每一次试验完整记账，样本外数据锁定不动。</p>
+    <p>代码私有，可在面试中演示。</p>
   </article>
   <article>
-    <h3>Oppor-Radar</h3>
-    <p>多源信息抓取与 LLM 汇总系统，用于持续发现学术、产业与个人发展机会。</p>
-    <p><a href="https://github.com/RanchoTao/Oppor-Radar">GitHub</a></p>
-  </article>
-  <article>
-    <h3>Math · CS · AI Atlas</h3>
-    <p>一个覆盖纯数学、计算机科学与人工智能的多尺度知识图谱与学习路线系统。</p>
-    <p><a href="https://ranchotao.com/Math-CS-AI/">访问网站</a></p>
-  </article>
-  <article>
-    <h3>BIMSA MathAI</h3>
-    <p>面向数学与人工智能学习的非官方开放知识库与课程学习档案。</p>
-    <p><a href="https://ranchotao.com/BIMSA-MathAI/">访问网站</a></p>
+    <h3>丘先生的数学世界</h3>
+    <p>为丘成桐先生制作的非官方数学主题网站，以作品与人生为线索，介绍他的主要数学贡献。</p>
+    <p><a href="https://masteryau.com">访问网站</a></p>
   </article>
 </div>

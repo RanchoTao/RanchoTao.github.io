@@ -15,32 +15,22 @@ I use projects as an experimental layer between research and engineering: ideas 
 <div class="project-list">
   <article>
     <h3>Visual Deadline</h3>
-    <p>A cognitive-augmentation system for long-horizon planning, task pressure, deadlines, and attention management.</p>
+    <p>A live personal-planning product with sign-up and payments. It combines importance, deadlines, and remaining work into an explainable priority, and learns each user's value ordering from the choices they actually make. Started at the HiYouth Hackathon.</p>
     <p><a href="https://github.com/RanchoTao/Visual-Deadline">GitHub</a></p>
   </article>
   <article>
-    <h3>RanchoAutoResearch</h3>
-    <p>An AI agent / harness experiment for research workflows spanning literature, experiments, code, auditing, and writing.</p>
-    <p><a href="https://github.com/RanchoTao/RanchoAutoResearch">GitHub</a></p>
+    <h3>RanchoResearch</h3>
+    <p>Research-automation software with explicit evidence gates. Built on the open-source AutoResearchClaw, adding evidence gating, claim versioning, and reproducibility boundaries across literature review, hypotheses, experiment orchestration, and analysis.</p>
+    <p><a href="https://github.com/RanchoTao/RanchoResearch">GitHub</a></p>
   </article>
   <article>
-    <h3>Wayline</h3>
-    <p>A short-cycle product prototype originating from the HiYouth Hackathon, focused on AI-assisted planning and action workflows.</p>
-    <p><a href="https://github.com/RanchoTao/Wayline">GitHub</a></p>
+    <h3>Ripple-Quant</h3>
+    <p>Point-in-time quantitative research infrastructure: factor candidates from a finite grammar, tradeable forward-return labels, IC with HAC inference, FDR control and stability gates, and walk-forward baseline models. Every trial is logged, and the holdout stays locked.</p>
+    <p>Private codebase; available for demonstration in interviews.</p>
   </article>
   <article>
-    <h3>Oppor-Radar</h3>
-    <p>A multi-source information and LLM summarization system for continuously discovering academic, industry, and personal-development opportunities.</p>
-    <p><a href="https://github.com/RanchoTao/Oppor-Radar">GitHub</a></p>
-  </article>
-  <article>
-    <h3>Math · CS · AI Atlas</h3>
-    <p>A multiscale knowledge graph and learning-route system spanning pure mathematics, computer science, and artificial intelligence.</p>
-    <p><a href="https://ranchotao.com/Math-CS-AI/">Visit website</a></p>
-  </article>
-  <article>
-    <h3>BIMSA MathAI</h3>
-    <p>An unofficial open knowledge base and learning archive for mathematics and artificial intelligence.</p>
-    <p><a href="https://ranchotao.com/BIMSA-MathAI/">Visit website</a></p>
+    <h3>The Mathematical World of Professor Yau</h3>
+    <p>An unofficial website for Shing-Tung Yau that introduces his major mathematical contributions through his work and life.</p>
+    <p><a href="https://masteryau.com">Visit website</a></p>
   </article>
 </div>
