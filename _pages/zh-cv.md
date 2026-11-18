@@ -44,7 +44,7 @@ nav_key: cv
 
 **Visual Deadline** — 面向长期规划、截止日期、任务压力与注意力管理的认知改造系统。[GitHub](https://github.com/RanchoTao/Visual-Deadline)
 
-**RanchoAutoResearch** — 覆盖文献、实验、代码、审计与写作环节的 AI Agent / Research Harness 实验。[GitHub](https://github.com/RanchoTao/RanchoAutoResearch)
+**RanchoResearch** — 带证据门禁的科研自动化软件，基于 AutoResearchClaw 二次开发，覆盖文献、假设、实验编排与分析。[GitHub](https://github.com/RanchoTao/RanchoResearch)
 
 **Oppor-Radar** — 多源信息抓取与 LLM 汇总系统，用于持续发现学术与产业机会。[GitHub](https://github.com/RanchoTao/Oppor-Radar)
 

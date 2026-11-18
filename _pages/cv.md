@@ -44,7 +44,7 @@ Studying random time changes, subordination, non-Gaussian heavy-tailed noise, an
 
 **Visual Deadline** — A cognitive-augmentation system for long-horizon planning, deadlines, task pressure, and attention management. [GitHub](https://github.com/RanchoTao/Visual-Deadline)
 
-**RanchoAutoResearch** — An AI agent / research-harness experiment spanning literature review, experiments, code, auditing, and writing. [GitHub](https://github.com/RanchoTao/RanchoAutoResearch)
+**RanchoResearch** — Research-automation software with explicit evidence gates, built on AutoResearchClaw, spanning literature review, hypotheses, experiment orchestration, and analysis. [GitHub](https://github.com/RanchoTao/RanchoResearch)
 
 **Oppor-Radar** — A multi-source information pipeline with LLM summarization for continuously discovering academic and industry opportunities. [GitHub](https://github.com/RanchoTao/Oppor-Radar)
 
